@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the archived release and the underlying MPE2 environment."
+title: "Selective Adaptation in Multi-Agent Communication"
+type: software
+authors:
+  - family-names: "Caus"
+    given-names: "Victor Antonio Batista"
+version: 0.1.0
+date-released: 2026-09-26
+license: MIT
+

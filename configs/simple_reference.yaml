@@ -1,0 +1,35 @@
+experiment:
+  name: simple-reference-shift-benchmark
+  environment: simple_reference_v3
+  seed: 42
+  evaluation_seeds: [101, 202, 303, 404, 505]
+
+environment:
+  max_cycles: 25
+  continuous_actions: false
+  local_ratio: 0.5
+
+session:
+  episodes: 40
+  change_episode_min: 10
+  change_episode_max: 30
+  reveal_intervention_label: false
+
+interventions:
+  conditions: [none, semantic, behavioral, both]
+  semantic:
+    type: symbol_permutation
+    message_dimensions: 10
+    resample_each_session: true
+  behavioral:
+    type: teammate_policy_swap
+    preserve_communication_module: true
+
+evaluation:
+  pre_change_window: 5
+  post_change_window: 5
+  recovery_threshold: 0.95
+  recovery_sustain: 3
+  bootstrap_samples: 10000
+  confidence_level: 0.95
+
