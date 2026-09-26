@@ -1,5 +1,6 @@
 """Evaluation metrics for shift diagnosis and recovery."""
 
+from selective_marl.evaluation.benchmark import EvaluationConfig, evaluate
 from selective_marl.evaluation.metrics import (
     ShiftMetrics,
     classification_accuracy,
@@ -12,5 +13,6 @@ __all__ = [
     "classification_accuracy",
     "compute_shift_metrics",
     "detection_delay",
+    "EvaluationConfig",
+    "evaluate",
 ]
-

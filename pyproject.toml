@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "selective-marl-adaptation"
-version = "0.1.0"
+version = "0.2.0"
 description = "Benchmark for diagnosing semantic and behavioral shifts in cooperative multi-agent reinforcement learning."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -15,7 +15,9 @@ authors = [
 dependencies = [
   "mpe2>=0.0.1",
   "numpy>=1.26",
+  "Pillow>=10.0",
   "PyYAML>=6.0",
+  "torch>=2.2",
 ]
 
 [project.optional-dependencies]
@@ -32,6 +34,7 @@ dev = [
 
 [project.scripts]
 selective-marl-smoke = "selective_marl.experiments.smoke_reference:main"
+selective-marl = "selective_marl.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/selective_marl"]

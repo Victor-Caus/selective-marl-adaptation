@@ -22,8 +22,20 @@ interventions:
     message_dimensions: 10
     resample_each_session: true
   behavioral:
-    type: teammate_policy_swap
+    type: motor_action_rotation
+    target_agent: agent_1
     preserve_communication_module: true
+
+training:
+  algorithms:
+    - maddpg
+    - mappo_no_comm
+    - mappo
+    - channel_randomized
+    - rmappo
+    - selective
+  research_steps_per_run: 500000
+  training_seeds: [42, 43, 44]
 
 evaluation:
   pre_change_window: 5

@@ -40,4 +40,3 @@ def test_behavioral_spec_requires_distinct_policies() -> None:
             teammate_policy_before="policy-a",
             teammate_policy_after="policy-a",
         )
-

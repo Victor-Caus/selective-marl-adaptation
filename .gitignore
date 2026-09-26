@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+.cache/
 .coverage
 htmlcov/
 build/
@@ -11,6 +12,9 @@ dist/
 wandb/
 results/runs/
 results/raw/
+diagnostics/
+*.pt
+*.pth
 *.mp4
 *.gif
 .idea/

@@ -35,4 +35,3 @@ def test_diagnosis_metrics() -> None:
     assert classification_accuracy(["none", "semantic"], ["none", "both"]) == 0.5
     assert detection_delay(10, 14) == 4
     assert detection_delay(10, None) is None
-

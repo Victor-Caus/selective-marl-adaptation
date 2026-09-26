@@ -29,16 +29,16 @@ and rewards, but not the intervention label.
 
 ## Current status
 
-- [x] Research protocol and intervention contract
-- [x] Core evaluation metrics
-- [x] MPE2 `Simple Reference` smoke runner
-- [x] Unit tests for interventions and metrics
-- [ ] Reproduce random and independent-policy baselines
-- [ ] Reproduce MADDPG and MAPPO baselines
-- [ ] Add recurrent MAPPO and context baselines
-- [ ] Implement semantic/behavioral diagnosis
-- [ ] Implement selective adaptation and ablations
-- [ ] Validate on `Simple World Comm`
+- [x] Research protocol and mechanism-isolated interventions
+- [x] Structured metrics and diagnostic bundles
+- [x] Random and no-communication controls
+- [x] Discrete MADDPG and MAPPO baselines
+- [x] Channel-randomized MAPPO and recurrent MAPPO/GRU
+- [x] Factorized semantic/behavioral contexts with four-class diagnosis
+- [x] Selective context updates and oracle-gated ablation
+- [x] Automated plots, CSV tables, GIFs, checkpoints, and CI
+- [ ] Run the preregistered long experiments on multiple seeds
+- [ ] Review evidence before opening the `Simple World Comm` stage
 
 ## Setup
 
@@ -50,8 +50,23 @@ pytest
 selective-marl-smoke --episodes 5 --seed 42
 ```
 
-The smoke command is not a learning result. It confirms that the installed MPE2 version,
-action spaces, observations, seeding, and result recording are working.
+On Windows, the complete engineering check is:
+
+```powershell
+.\scripts\setup.ps1
+.\scripts\run-smoke.ps1
+```
+
+The smoke profile trains every method briefly and verifies every artifact. It is not a
+scientific result. For an exploratory run and the preregistered long run:
+
+```powershell
+.\scripts\run-quick.ps1
+.\scripts\run-research.ps1
+```
+
+See [the runbook](docs/runbook.md) for expected duration, output files, and how to share a
+diagnostic bundle.
 
 ## Repository layout
 
@@ -73,6 +88,21 @@ retained in the experiment manifest and excluded only by documented rules.
 
 See [the experiment protocol](docs/experiment-protocol.md), [metric definitions](docs/metrics.md),
 and [the literature map](docs/related-work.md) before adding algorithms or reporting results.
+
+## Generated artifacts
+
+Every pipeline run creates an ignored directory under `results/runs/` containing:
+
+- `metadata.json`, resolved configuration, and console log;
+- episode-level JSONL and CSV records;
+- model checkpoint for each trained policy;
+- aggregate `summary.csv`, `summary.json`, and `REPORT.md`;
+- recovery curves and comparison plots;
+- rendered GIFs for qualitative inspection;
+- `diagnostic-bundle.zip` containing all shareable diagnostics except large checkpoints.
+
+`.venv`, `.pytest_cache`, `.ruff_cache`, `.cache`, raw runs, checkpoints, and generated GIFs
+are ignored by Git. They can appear in an editor's file tree without being committed.
 
 ## Citation
 

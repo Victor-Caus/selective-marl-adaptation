@@ -87,4 +87,3 @@ def apply_symbol_permutation(
         raise ValueError("permutation must contain every message index exactly once")
     result[message_slice] = message[np.asarray(permutation)]
     return result
-

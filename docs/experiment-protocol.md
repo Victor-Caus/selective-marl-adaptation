@@ -21,8 +21,10 @@ The benchmark is a 2 x 2 factorial design:
 
 The semantic intervention permutes only the received-message dimensions. It must not
 change positions, velocities, rewards, physical actions, or random-number streams. The
-behavioral intervention swaps a teammate's motor policy while retaining its communication
-module and symbol convention. Automated invariance tests are required before training.
+first behavioral intervention rotates the physical movement selected for one teammate while
+retaining the communication action and symbol convention. This controlled motor-policy
+shift provides exact causal ground truth. Learned teammate-policy swaps are a later robustness
+extension. Automated invariance tests are required before training.
 
 ## Information boundary
 

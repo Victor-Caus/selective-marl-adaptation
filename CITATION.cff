@@ -3,9 +3,9 @@ message: "If you use this benchmark, please cite the archived release and the un
 title: "Selective Adaptation in Multi-Agent Communication"
 type: software
 authors:
-  - family-names: "Caus"
-    given-names: "Victor Antonio Batista"
-version: 0.1.0
+  - family-names: "Batista Caus"
+    given-names: "Victor Antonio"
+version: 0.2.0
 date-released: 2026-09-26
 license: MIT
 
