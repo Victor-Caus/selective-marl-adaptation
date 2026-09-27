@@ -28,7 +28,7 @@ if ($RolloutThreads -le 0) { $RolloutThreads = $defaults[$Profile].threads }
 
 # The official source creates output paths relative to __file__. A short same-drive
 # junction avoids the Windows 260-character path limit without copying or editing it.
-$shortSource = Join-Path $env:LOCALAPPDATA "selective-marl-mappo-source"
+$shortSource = Join-Path $env:USERPROFILE "marlref"
 if (Test-Path -LiteralPath $shortSource) {
     $existing = Get-Item -LiteralPath $shortSource -Force
     $resolvedTarget = [System.IO.Path]::GetFullPath([string]$existing.Target)
@@ -41,7 +41,7 @@ if (Test-Path -LiteralPath $shortSource) {
 }
 
 $timestamp = (Get-Date).ToUniversalTime().ToString("yyyyMMddTHHmmssZ")
-$experiment = "reference_${Profile}_seed${Seed}_win${RolloutThreads}_${timestamp}"
+$experiment = "rf_${Profile}_s${Seed}_r${RolloutThreads}_${timestamp}"
 $runRoot = Join-Path $resultRoot $experiment
 New-Item -ItemType Directory -Force -Path $runRoot | Out-Null
 $consoleLog = Join-Path $runRoot "console.log"

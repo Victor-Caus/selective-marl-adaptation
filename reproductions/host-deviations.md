@@ -12,8 +12,8 @@ factorization, seed, and total environment-step budget remain those of the pinne
   available on this host.
 - TensorBoardX 2.6.2.2 replaces 2.0 because 2.0 cannot create nested scalar directories on
   Windows. This affects logging only.
-- A short NTFS junction points to the pinned checkout to avoid the Windows path-length limit.
-  It does not copy or edit the source.
+- A short NTFS junction at `%USERPROFILE%\marlref` points to the pinned checkout to avoid the
+  Windows path-length limit. It does not copy or edit the source.
 - Tests with 128 and 32 rollout processes exhausted Windows virtual memory before the first
   environment step. The Windows adapter therefore places the same 128 ranked, independently
   seeded environments in the official `DummyVecEnv` and advances them sequentially in one
