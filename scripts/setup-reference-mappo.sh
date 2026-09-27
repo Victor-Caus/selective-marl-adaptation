@@ -31,7 +31,7 @@ if [[ "$ACTUAL_COMMIT" != "$SOURCE_COMMIT" ]]; then
 fi
 
 if [[ ! -x "$ENV_PREFIX/bin/python" ]]; then
-  conda create -y -p "$ENV_PREFIX" -c conda-forge \
+  conda create -y -p "$ENV_PREFIX" --override-channels -c conda-forge \
     python=3.8 pip=23.0 setuptools=65.6.3 wheel=0.38.4
 fi
 
