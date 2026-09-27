@@ -40,6 +40,10 @@ and rewards, but not the intervention label.
 - [ ] Run the preregistered long experiments on multiple seeds
 - [ ] Review evidence before opening the `Simple World Comm` stage
 
+The in-house learning algorithms are preliminary reimplementations. Reference reproduction
+and parity checks now precede any scientific comparison; see
+[the reproduction plan](docs/reproduction-plan.md).
+
 ## Setup
 
 ```bash
@@ -67,6 +71,18 @@ scientific result. For an exploratory run and the preregistered long run:
 
 See [the runbook](docs/runbook.md) for expected duration, output files, and how to share a
 diagnostic bundle.
+
+## Watch a trained policy
+
+Open a live MPE2 window using the newest checkpoint for an algorithm:
+
+```powershell
+.\scripts\watch-latest.ps1 -Algorithm mappo -Condition semantic
+.\scripts\watch-latest.ps1 -Algorithm selective -Condition behavioral
+```
+
+The default playback shows one episode before and one episode after the selected controlled
+shift. Existing pipeline GIFs remain available under each evaluation directory's `videos/`.
 
 ## Repository layout
 

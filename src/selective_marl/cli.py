@@ -6,7 +6,9 @@ import argparse
 import json
 from pathlib import Path
 
+from selective_marl.environments.interventions import InterventionKind
 from selective_marl.evaluation.benchmark import EvaluationConfig, evaluate
+from selective_marl.evaluation.viewer import watch_checkpoint
 from selective_marl.training import TrainConfig, train
 
 ALGORITHMS = (
@@ -92,6 +94,20 @@ def build_parser() -> argparse.ArgumentParser:
     eval_parser.add_argument("--output", type=Path, default=Path("results/runs"))
     eval_parser.add_argument("--device", default="auto")
 
+    watch_parser = subparsers.add_parser("watch", help="render a trained checkpoint live")
+    watch_parser.add_argument("checkpoint", type=Path)
+    watch_parser.add_argument(
+        "--condition", choices=tuple(kind.value for kind in InterventionKind), default="semantic"
+    )
+    watch_parser.add_argument("--episodes", type=int, default=2)
+    watch_parser.add_argument("--change-episode", type=int, default=1)
+    watch_parser.add_argument("--max-cycles", type=int, default=25)
+    watch_parser.add_argument("--seed", type=int, default=101)
+    watch_parser.add_argument("--fps", type=float, default=12.0)
+    watch_parser.add_argument("--stochastic", action="store_true")
+    watch_parser.add_argument("--oracle-gate", action="store_true")
+    watch_parser.add_argument("--device", default="auto")
+
     pipeline_parser = subparsers.add_parser("pipeline", help="train and compare all methods")
     pipeline_parser.add_argument(
         "--profile", choices=("smoke", "quick", "research"), default="quick"
@@ -145,6 +161,20 @@ def main() -> None:
             args.output,
         )
         print(path.resolve())
+        return
+    if args.command == "watch":
+        watch_checkpoint(
+            args.checkpoint,
+            condition=InterventionKind(args.condition),
+            episodes=args.episodes,
+            change_episode=args.change_episode,
+            max_cycles=args.max_cycles,
+            seed=args.seed,
+            fps=args.fps,
+            deterministic=not args.stochastic,
+            oracle_gate=args.oracle_gate,
+            device_name=args.device,
+        )
         return
 
     train_values, evaluation_values = _profile(args.profile)

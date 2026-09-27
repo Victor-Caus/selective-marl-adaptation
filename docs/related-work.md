@@ -3,6 +3,11 @@
 This document records the closest prior work and the boundary of the intended contribution.
 It is a living map, not a claim that the literature search is exhaustive.
 
+Formal citation entries are kept in `paper/references.bib`. Code provenance, immutable
+revisions, licenses, and the role of each external repository are recorded in
+`reproductions/references.lock.json`. External code is not copied into this repository merely
+for convenience.
+
 ## Environment and learning foundations
 
 - Mordatch, I., and Abbeel, P. (2017). *Emergence of Grounded Compositional Language in

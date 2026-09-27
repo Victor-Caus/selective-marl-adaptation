@@ -82,6 +82,24 @@ no-change condition. Compare `selective` with recurrent MAPPO, channel randomiza
 `selective-oracle`. A result is not evidence until it is stable across seeds and accompanied
 by uncertainty estimates.
 
+## Live visualization
+
+Watch the newest trained checkpoint for an algorithm:
+
+```powershell
+.\scripts\watch-latest.ps1 -Algorithm mappo -Condition semantic
+```
+
+The viewer preserves recurrent state between episodes, matching an evaluation session. By
+default episode 0 is pre-change and episode 1 is post-change. Use `-OracleGate` only for the
+explicit oracle ablation of a selective checkpoint.
+
+Previously generated GIFs can be opened directly, for example:
+
+```powershell
+Invoke-Item .\results\runs\20260927T085256Z-evaluation\videos\mappo-semantic.gif
+```
+
 ## Interruptions and recovery
 
 Completed algorithm runs remain usable if a later process is interrupted. Re-run individual

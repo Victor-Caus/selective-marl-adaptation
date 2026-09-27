@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-09-27",
+  "policy": "External source code is cloned into the ignored .external directory. It is never copied into this repository without its license and an explicit provenance record.",
+  "sources": [
+    {
+      "id": "openai-mpe",
+      "title": "Multi-Agent Particle Environments",
+      "repository": "https://github.com/openai/multiagent-particle-envs.git",
+      "commit": "83ba4d1aeb00282f7c4acd6912435b3ca642c227",
+      "license": "MIT",
+      "citation_key": "lowe2017multiagent",
+      "role": "Historical Simple Reference environment"
+    },
+    {
+      "id": "openai-maddpg",
+      "title": "Multi-Agent Deep Deterministic Policy Gradient",
+      "repository": "https://github.com/openai/maddpg.git",
+      "commit": "3ceefa0ada3ff31d633dd0bde8ff95213ce99be3",
+      "license": "MIT",
+      "citation_key": "lowe2017multiagent",
+      "role": "Historical MADDPG implementation"
+    },
+    {
+      "id": "marlbenchmark-on-policy",
+      "title": "Official MAPPO on-policy implementation",
+      "repository": "https://github.com/marlbenchmark/on-policy.git",
+      "commit": "de66d7a4b23fac2513f56f96f73b3f5cb96695ac",
+      "license": "MIT",
+      "citation_key": "yu2022surprising",
+      "role": "MAPPO and recurrent MAPPO reference"
+    },
+    {
+      "id": "marlbenchmark-off-policy",
+      "title": "Off-policy MARL implementations",
+      "repository": "https://github.com/marlbenchmark/off-policy.git",
+      "commit": "41fd5eb46d12df2847e1c2e29842997ff2c24998",
+      "license": "MIT",
+      "citation_key": "yu2022surprising",
+      "role": "Modern PyTorch MADDPG cross-check"
+    },
+    {
+      "id": "mpe2",
+      "title": "MPE2",
+      "repository": "https://github.com/Farama-Foundation/MPE2.git",
+      "commit": "147a8e88b669de9f0b06d1947c44d5c380c570bb",
+      "version": "1.1.1",
+      "license": "MIT",
+      "citation_key": "mpe2_2026",
+      "role": "Maintained benchmark environment used by this project"
+    }
+  ]
+}

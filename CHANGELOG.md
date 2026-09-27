@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Added live checkpoint playback for Simple Reference.
+- Added immutable provenance records, citation entries, pinned-source fetching, and the
+  baseline reproduction/parity plan.
+
 ## 0.2.0 — 2026-09-26
 
 - Add controlled semantic, behavioral, joint, and no-change sessions.
