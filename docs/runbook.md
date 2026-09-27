@@ -47,9 +47,11 @@ not copied from the reference repository. It reports raw episode returns, means,
 deviations, 95% confidence-interval half-widths, message usage, and the trained-minus-silenced
 return difference.
 
-The full local Windows profile keeps the official 3,000,000-step budget but uses 16 rollout
-processes. Tests with the official 128 and an intermediate 32 exhausted host virtual memory
-before training began. See `reproductions/host-deviations.md` before interpreting parity.
+The full local Windows profile keeps the official 3,000,000-step budget, 128 environments,
+3,200-step batches, and update count. Tests with 128 and 32 spawned workers exhausted host
+virtual memory, so a small project adapter advances the 128 official environments
+sequentially through the reference `DummyVecEnv`. See `reproductions/host-deviations.md`
+before interpreting parity.
 
 ## Profiles
 

@@ -53,8 +53,8 @@ The official R-MAPPO source can be installed and run in an isolated project-loca
 
 Raw outputs, dependency snapshots, console logs, normalized CSV metrics, a report, and a
 learning-curve plot are written below ignored `results/reference-runs/`. The precise Windows
-compatibility choices and failed 128/32-process scaling checks are recorded in
-`reproductions/host-deviations.md`.
+compatibility choices, failed 128/32-process scaling checks, and the sequential 128-environment
+adapter are recorded in `reproductions/host-deviations.md`.
 
 ## Acceptance gates
 

@@ -82,8 +82,9 @@ R-MAPPO baseline:
 .\scripts\run-reference-mappo.ps1 -Profile full
 ```
 
-The local Windows run uses 16 rollout processes because 32 and 128 exhaust this host's
-virtual memory. See [the recorded host deviations](reproductions/host-deviations.md).
+The local Windows runner keeps all 128 official environments but advances them sequentially
+because spawning 32 or 128 Python processes exhausts this host's virtual memory. See
+[the recorded host deviations](reproductions/host-deviations.md).
 
 ## Watch a trained policy
 

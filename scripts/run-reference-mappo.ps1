@@ -20,8 +20,8 @@ if (-not (Test-Path -LiteralPath (Join-Path $environment "python.exe") -PathType
 
 $defaults = @{
     smoke = @{ steps = 500L; threads = 1 }
-    pilot = @{ steps = 20000L; threads = 16 }
-    full = @{ steps = 3000000L; threads = 16 }
+    pilot = @{ steps = 32000L; threads = 128 }
+    full = @{ steps = 3000000L; threads = 128 }
 }
 if ($NumEnvSteps -le 0) { $NumEnvSteps = $defaults[$Profile].steps }
 if ($RolloutThreads -le 0) { $RolloutThreads = $defaults[$Profile].threads }
@@ -48,7 +48,7 @@ $consoleLog = Join-Path $runRoot "console.log"
 $sourceCommit = (git -C $sourceRoot rev-parse HEAD).Trim()
 
 $arguments = @(
-    "train\train_mpe.py",
+    (Join-Path $PSScriptRoot "run-official-mappo-sequential.py"),
     "--env_name", "MPE",
     "--algorithm_name", "rmappo",
     "--experiment_name", $experiment,
@@ -81,7 +81,7 @@ $metadata = [ordered]@{
     num_env_steps = $NumEnvSteps
     n_rollout_threads = $RolloutThreads
     official_n_rollout_threads = 128
-    host_deviation = if ($RolloutThreads -eq 128) { $null } else { "Reduced rollout processes for Windows memory limits." }
+    host_deviation = "The 128 official environments run sequentially in DummyVecEnv on Windows."
     command_arguments = $arguments
 }
 $metadata | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $runRoot "metadata.json") -Encoding utf8

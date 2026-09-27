@@ -15,9 +15,13 @@ factorization, seed, and total environment-step budget remain those of the pinne
 - A short NTFS junction points to the pinned checkout to avoid the Windows path-length limit.
   It does not copy or edit the source.
 - Tests with 128 and 32 rollout processes exhausted Windows virtual memory before the first
-  environment step. Sixteen processes completed repeated pilots and are used for the local
-  3,000,000-step run.
+  environment step. The Windows adapter therefore places the same 128 ranked, independently
+  seeded environments in the official `DummyVecEnv` and advances them sequentially in one
+  process. This preserves the official 3,200-step rollout batch and approximately 937 PPO
+  updates over 3,000,000 environment steps. A discarded 16-process pilot would instead have
+  performed 7,500 smaller-batch updates and is not used as a reference result.
 
-Because the rollout-process count changes the batch collected per update, the local run is a
+Environment process placement and package versions still differ, so the local run is a
 host-feasible reference reproduction, not a bitwise or exact paper reproduction. An exact
-128-process run remains a later Linux-host validation.
+128-process Linux run remains a later validation, but the local adapter retains the official
+batch size, update count, seeds, algorithm, and environment logic.
