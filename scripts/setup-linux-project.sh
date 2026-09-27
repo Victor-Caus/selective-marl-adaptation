@@ -3,6 +3,9 @@ set -euo pipefail
 
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ENV_PREFIX="$PROJECT_ROOT/.external/envs/selective-marl-linux"
+export PIP_CACHE_DIR="$PROJECT_ROOT/.external/cache/pip"
+export TMPDIR="$PROJECT_ROOT/.external/tmp"
+mkdir -p "$PIP_CACHE_DIR" "$TMPDIR"
 
 if ! command -v conda >/dev/null 2>&1; then
   echo "conda is required" >&2
