@@ -70,6 +70,19 @@ rollout environments through the pinned repository's `SubprocVecEnv`. After trai
 automatically normalizes the TensorBoard export and runs a 200-episode deterministic
 checkpoint evaluation. If `xvfb-run` is installed, it also renders a GIF.
 
+To run the in-house R-MAPPO control without shifts and then evaluate the pinned official
+actor under all four controlled interventions:
+
+```bash
+./scripts/setup-linux-project.sh
+tmux new-session -d -s marl-parity \
+  './scripts/run-linux-parity-sequence.sh 2>&1 | tee results/linux-parity-sequence.log'
+```
+
+The first stage trains only on `none`; its standard evaluation still measures all four
+conditions. The second stage leaves the official actor unchanged and intervenes only on the
+received-message dimensions, teammate movement branch, or both after episode 20.
+
 ## Profiles
 
 ### Smoke
