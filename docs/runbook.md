@@ -38,7 +38,8 @@ communication-silencing ablation:
 .\.external\tools\micromamba\micromamba.exe run `
   -p .\.external\envs\mappo-reference python `
   .\scripts\evaluate-reference-mappo.py `
-  --model-dir <path-to-models> --output-dir <path-to-evaluation> --episodes 200
+  --model-dir <path-to-models> --output-dir <path-to-evaluation> `
+  --episodes 200 --save-gif
 ```
 
 This evaluator is project code that loads the pinned official actor and environment; it is

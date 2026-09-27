@@ -9,6 +9,7 @@ import math
 from collections import Counter
 from pathlib import Path
 
+import imageio
 import numpy as np
 import torch
 from onpolicy.algorithms.r_mappo.algorithm.rMAPPOPolicy import R_MAPPOPolicy
@@ -46,6 +47,7 @@ def run_condition(
     condition: str,
     episodes: int,
     seed: int,
+    gif_path=None,
 ) -> tuple[list[float], Counter[int]]:
     torch.manual_seed(seed)
     np.random.seed(seed)
@@ -65,8 +67,11 @@ def run_condition(
 
     returns: list[float] = []
     message_counts: Counter[int] = Counter()
-    for _ in range(episodes):
+    frames: list[np.ndarray] = []
+    for episode in range(episodes):
         obs = env.reset()
+        if gif_path is not None and episode == 0:
+            frames.append(env.render("rgb_array")[0])
         rnn_states = np.zeros(
             (args.num_agents, args.recurrent_N, args.hidden_size), dtype=np.float32
         )
@@ -93,8 +98,12 @@ def run_condition(
             )
             obs, rewards, _dones, _infos = env.step(env_actions)
             episode_return += float(np.mean(rewards))
+            if gif_path is not None and episode == 0:
+                frames.append(env.render("rgb_array")[0])
         returns.append(episode_return)
     env.close()
+    if gif_path is not None:
+        imageio.mimsave(gif_path, frames, duration=0.1)
     return returns, message_counts
 
 
@@ -126,6 +135,7 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--episodes", type=int, default=200)
     parser.add_argument("--seed", type=int, default=1001)
+    parser.add_argument("--save-gif", action="store_true")
     cli = parser.parse_args()
     actor_path = cli.model_dir.resolve() / "actor.pt"
     if not actor_path.is_file():
@@ -143,6 +153,9 @@ def main() -> None:
             condition=condition,
             episodes=cli.episodes,
             seed=cli.seed,
+            gif_path=(output_dir / "trained-policy.gif")
+            if cli.save_gif and condition == "trained"
+            else None,
         )
 
     with (output_dir / "evaluation-episodes.csv").open(
