@@ -53,6 +53,23 @@ virtual memory, so a small project adapter advances the 128 official environment
 sequentially through the reference `DummyVecEnv`. See `reproductions/host-deviations.md`
 before interpreting parity.
 
+### Linux compute host
+
+On a Linux host with sufficient RAM and CUDA, use the official subprocess collector rather
+than the Windows sequential adapter:
+
+```bash
+./scripts/setup-reference-mappo.sh
+tmux new-session -d -s marl-reference \
+  './scripts/run-reference-mappo.sh full 1 2>&1 | tee results/reference-linux.log'
+tmux attach -t marl-reference
+```
+
+The Linux runner keeps all official `simple_reference` hyperparameters and launches the 128
+rollout environments through the pinned repository's `SubprocVecEnv`. After training it
+automatically normalizes the TensorBoard export and runs a 200-episode deterministic
+checkpoint evaluation. If `xvfb-run` is installed, it also renders a GIF.
+
 ## Profiles
 
 ### Smoke
