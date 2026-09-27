@@ -31,6 +31,21 @@ in-house PPO. They save the exact command, dependency freeze, console log, offic
 checkpoints, TensorBoard export, normalized `metrics.csv`, `analysis.json`, `REPORT.md`, and
 `learning-curve.png` under ignored `results/reference-runs/`.
 
+After training, evaluate a copied official checkpoint against a random policy and a causal
+communication-silencing ablation:
+
+```powershell
+.\.external\tools\micromamba\micromamba.exe run `
+  -p .\.external\envs\mappo-reference python `
+  .\scripts\evaluate-reference-mappo.py `
+  --model-dir <path-to-models> --output-dir <path-to-evaluation> --episodes 200
+```
+
+This evaluator is project code that loads the pinned official actor and environment; it is
+not copied from the reference repository. It reports raw episode returns, means, standard
+deviations, 95% confidence-interval half-widths, message usage, and the trained-minus-silenced
+return difference.
+
 The full local Windows profile keeps the official 3,000,000-step budget but uses 16 rollout
 processes. Tests with the official 128 and an intermediate 32 exhausted host virtual memory
 before training began. See `reproductions/host-deviations.md` before interpreting parity.
