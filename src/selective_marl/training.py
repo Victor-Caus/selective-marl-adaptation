@@ -40,6 +40,7 @@ class TrainConfig:
     change_episode: int = 10
     log_interval: int = 1
     device: str = "auto"
+    training_conditions: tuple[str, ...] | None = None
 
 
 def choose_device(value: str) -> torch.device:
@@ -69,14 +70,24 @@ def train(config: TrainConfig, output_root: Path) -> Path:
     model = build_policy(config.algorithm, config.hidden_size).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=config.learning_rate)
 
-    conditions = list(InterventionKind)
+    conditions = (
+        [InterventionKind(value) for value in config.training_conditions]
+        if config.training_conditions is not None
+        else list(InterventionKind)
+    )
+    if not conditions:
+        raise ValueError("training_conditions must contain at least one condition")
     session_index = 0
     episode_index = 0
     episode_seed = config.seed * 100_000
     initial_condition = (
-        InterventionKind.SEMANTIC
-        if config.algorithm == "channel_randomized"
-        else InterventionKind.NONE
+        conditions[0]
+        if config.training_conditions is not None
+        else (
+            InterventionKind.SEMANTIC
+            if config.algorithm == "channel_randomized"
+            else InterventionKind.NONE
+        )
     )
     initial_change = 0 if config.algorithm == "channel_randomized" else config.change_episode
     spec = make_session_spec(initial_condition, initial_change, episode_seed)
@@ -173,7 +184,10 @@ def train(config: TrainConfig, output_root: Path) -> Path:
                     if new_session:
                         session_index += 1
                         episode_index = 0
-                        if config.algorithm == "channel_randomized":
+                        if config.training_conditions is not None:
+                            condition = conditions[session_index % len(conditions)]
+                            change_episode = config.change_episode
+                        elif config.algorithm == "channel_randomized":
                             condition = InterventionKind.SEMANTIC
                             change_episode = 0
                         elif config.algorithm in {"rmappo", "selective"}:

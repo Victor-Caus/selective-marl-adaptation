@@ -87,6 +87,12 @@ def build_parser() -> argparse.ArgumentParser:
     train_parser.add_argument("--seed", type=int, default=42)
     train_parser.add_argument("--device", default="auto")
     train_parser.add_argument("--output", type=Path, default=Path("results/runs"))
+    train_parser.add_argument(
+        "--training-conditions",
+        nargs="+",
+        choices=tuple(kind.value for kind in InterventionKind),
+        help="override the algorithm's training schedule (for example: none)",
+    )
 
     eval_parser = subparsers.add_parser("evaluate", help="evaluate checkpoints")
     eval_parser.add_argument("checkpoints", nargs="+", type=Path)
@@ -118,6 +124,12 @@ def build_parser() -> argparse.ArgumentParser:
     pipeline_parser.add_argument("--seeds", nargs="+", type=int, default=[42])
     pipeline_parser.add_argument("--device", default="auto")
     pipeline_parser.add_argument("--output", type=Path, default=Path("results/runs"))
+    pipeline_parser.add_argument(
+        "--training-conditions",
+        nargs="+",
+        choices=tuple(kind.value for kind in InterventionKind),
+        help="use the same explicit condition schedule for every trained policy",
+    )
 
     subparsers.add_parser("doctor", help="print dependency and accelerator information")
     return parser
@@ -148,7 +160,13 @@ def main() -> None:
     if args.command == "train":
         path = train(
             TrainConfig(
-                algorithm=args.algorithm, seed=args.seed, total_steps=args.steps, device=args.device
+                algorithm=args.algorithm,
+                seed=args.seed,
+                total_steps=args.steps,
+                device=args.device,
+                training_conditions=tuple(args.training_conditions)
+                if args.training_conditions
+                else None,
             ),
             args.output,
         )
@@ -181,7 +199,15 @@ def main() -> None:
     checkpoints: list[Path] = []
     for algorithm in args.algorithms:
         for seed in args.seeds:
-            config = TrainConfig(algorithm=algorithm, seed=seed, device=args.device, **train_values)
+            config = TrainConfig(
+                algorithm=algorithm,
+                seed=seed,
+                device=args.device,
+                training_conditions=tuple(args.training_conditions)
+                if args.training_conditions
+                else None,
+                **train_values,
+            )
             run_path = train(config, args.output)
             checkpoints.append(run_path / "checkpoint.pt")
     evaluation_config = EvaluationConfig(device=args.device, **evaluation_values)
