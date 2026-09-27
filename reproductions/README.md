@@ -25,10 +25,18 @@ Audit the local prerequisites and checked-out commits with:
 ```
 
 Fetching is not the same as reproducing. The historical OpenAI MADDPG code requires Python
-3.5.4, TensorFlow 1.8.0, Gym 0.10.5, and NumPy 1.14.5. It must run in an isolated legacy
-environment. The current Windows host has neither Docker nor Conda, so that exact run is
-blocked until an isolation runtime is installed. No compatibility edits may be called an
-exact reproduction.
+3.5.4, TensorFlow 1.8.0, Gym 0.10.5, and NumPy 1.14.5. It still requires a separate
+TensorFlow 1.x-compatible environment. The official MAPPO code has a project-local
+micromamba setup and Windows runner:
+
+```powershell
+.\scripts\setup-reference-mappo.ps1
+.\scripts\run-reference-mappo.ps1 -Profile smoke
+```
+
+The MAPPO runner records every compatibility choice and must not be described as an exact
+paper reproduction when its rollout-process count differs from the pinned Linux script.
+No compatibility edit may be called an exact reproduction.
 
 See `docs/reproduction-plan.md` for the experiment ladder and acceptance gates.
 The concrete differences found in the first source audit are recorded in `parity-audit.md`.

@@ -13,6 +13,7 @@ dist/
 wandb/
 results/runs/
 results/raw/
+results/reference-runs/
 diagnostics/
 *.pt
 *.pth

@@ -40,6 +40,22 @@ the first settings to reproduce; they are not approximated by the existing `quic
 
 These differences must be eliminated or explicitly measured before comparing scores.
 
+## Executable Windows reference path
+
+The official R-MAPPO source can be installed and run in an isolated project-local environment:
+
+```powershell
+.\scripts\setup-reference-mappo.ps1
+.\scripts\run-reference-mappo.ps1 -Profile smoke
+.\scripts\run-reference-mappo.ps1 -Profile pilot
+.\scripts\run-reference-mappo.ps1 -Profile full
+```
+
+Raw outputs, dependency snapshots, console logs, normalized CSV metrics, a report, and a
+learning-curve plot are written below ignored `results/reference-runs/`. The precise Windows
+compatibility choices and failed 128/32-process scaling checks are recorded in
+`reproductions/host-deviations.md`.
+
 ## Acceptance gates
 
 - A trained reference policy must clearly outperform a random policy.

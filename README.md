@@ -37,6 +37,7 @@ and rewards, but not the intervention label.
 - [x] Factorized semantic/behavioral contexts with four-class diagnosis
 - [x] Selective context updates and oracle-gated ablation
 - [x] Automated plots, CSV tables, GIFs, checkpoints, and CI
+- [x] Pinned official MAPPO source and isolated Windows reproduction runner
 - [ ] Run the preregistered long experiments on multiple seeds
 - [ ] Review evidence before opening the `Simple World Comm` stage
 
@@ -71,6 +72,18 @@ scientific result. For an exploratory run and the preregistered long run:
 
 See [the runbook](docs/runbook.md) for expected duration, output files, and how to share a
 diagnostic bundle.
+
+Before using the preliminary implementations for comparisons, reproduce the official
+R-MAPPO baseline:
+
+```powershell
+.\scripts\setup-reference-mappo.ps1
+.\scripts\run-reference-mappo.ps1 -Profile smoke
+.\scripts\run-reference-mappo.ps1 -Profile full
+```
+
+The local Windows run uses 16 rollout processes because 32 and 128 exhaust this host's
+virtual memory. See [the recorded host deviations](reproductions/host-deviations.md).
 
 ## Watch a trained policy
 

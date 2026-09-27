@@ -14,6 +14,27 @@ From the repository root on Windows:
 implementation runs on CPU and automatically uses CUDA when a compatible PyTorch build and
 GPU are available.
 
+## Official MAPPO reference
+
+Set up the separately pinned legacy-compatible environment once, then run the integrity,
+pilot, and full profiles in order:
+
+```powershell
+.\scripts\setup-reference-mappo.ps1
+.\scripts\run-reference-mappo.ps1 -Profile smoke
+.\scripts\run-reference-mappo.ps1 -Profile pilot
+.\scripts\run-reference-mappo.ps1 -Profile full
+```
+
+These commands execute the pinned `marlbenchmark/on-policy` source, not the preliminary
+in-house PPO. They save the exact command, dependency freeze, console log, official
+checkpoints, TensorBoard export, normalized `metrics.csv`, `analysis.json`, `REPORT.md`, and
+`learning-curve.png` under ignored `results/reference-runs/`.
+
+The full local Windows profile keeps the official 3,000,000-step budget but uses 16 rollout
+processes. Tests with the official 128 and an intermediate 32 exhausted host virtual memory
+before training began. See `reproductions/host-deviations.md` before interpreting parity.
+
 ## Profiles
 
 ### Smoke
