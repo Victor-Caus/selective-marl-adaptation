@@ -56,9 +56,7 @@ combination of:
 3. routing adaptation to only the inferred affected component;
 4. explicit measurement of recovery and preservation of unaffected competence.
 
-The eventual manuscript should use cautious language such as “we did not identify a prior
-evaluation combining these elements” until backward and forward citation searches are
-completed immediately before submission.
+The present study does not establish that this combination is novel or generally superior. The implemented movement intervention is an actuator rotation; broader teammate-policy changes remain outside the completed evaluation.
 
 ## Primary links
 

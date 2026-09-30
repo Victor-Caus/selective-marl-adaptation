@@ -1,0 +1,11 @@
+{
+  "scope": "Partial seeds 1-3; frozen 2026-09-29; descriptive only",
+  "hashes": {
+    "results\\liam-comparison-20260928-r1\\evaluation-s1\\session-metrics.json": "bc650261fd49a25373dd8b5d834e6e65b6bdf5cd63c631873020cf47f8594155",
+    "results\\liam-comparison-20260928-r1\\evaluation-s1\\episodes.csv": "f6d49acb59e35d224120d04bcb25c89233967453b809d0c4b2a1dd12b8d54f51",
+    "results\\liam-comparison-20260928-r1\\evaluation-s2\\session-metrics.json": "8921c6305579b8bcc3fb0945f28bef28411a710007992d3ac7ee8b34d0990b7a",
+    "results\\liam-comparison-20260928-r1\\evaluation-s2\\episodes.csv": "ed8c3bf5b21185b9e494a1564a606b7ee1f6a5817bafd22e6df7a32a5ce82f5d",
+    "results\\liam-comparison-20260928-r1\\evaluation-s3\\session-metrics.json": "ce5dc7284840c90bb421ff38e14470c4e7e9470af554148772bf6581d654557e",
+    "results\\liam-comparison-20260928-r1\\evaluation-s3\\episodes.csv": "f60d45fedd5b0c68d2aa2daece0e199a92cfc616dbd2a47f4c33a458667b340d"
+  }
+}

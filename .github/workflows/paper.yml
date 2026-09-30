@@ -1,0 +1,54 @@
+name: Publish paper
+on:
+  push:
+    branches: [main]
+    paths: ['paper/manuscript-v0.2.tex', 'site/**', '.github/workflows/paper.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: paper-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF build tools
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-pictures texlive-fonts-recommended
+      - name: Compile manuscript
+        working-directory: paper
+        run: |
+          pdflatex -interaction=nonstopmode -halt-on-error manuscript-v0.2.tex
+          pdflatex -interaction=nonstopmode -halt-on-error manuscript-v0.2.tex
+      - name: Assemble publication
+        run: |
+          cp paper/manuscript-v0.2.pdf site/paper.pdf
+          cp paper/manuscript-v0.2.tex site/manuscript.tex
+          mkdir overleaf
+          cp paper/manuscript-v0.2.tex overleaf/main.tex
+          (cd overleaf && zip ../site/overleaf.zip main.tex)
+          sed -i "s/BUILD_SHA/${GITHUB_SHA}/g; s/BUILD_DATE/$(date -u +%Y-%m-%d)/g" site/index.html
+          touch site/.nojekyll
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper-publication
+          path: |
+            site/
+            paper/manuscript-v0.2.log
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

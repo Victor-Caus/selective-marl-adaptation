@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Selective Adaptation · Research manuscript</title>
+<style>body{margin:0;background:#f6f7f9;color:#192533;font:17px/1.65 system-ui,sans-serif}main{max-width:1020px;margin:auto;padding:54px 24px}h1{font-size:clamp(29px,4vw,46px);line-height:1.14;letter-spacing:-.035em}h2{font-size:24px;margin-top:38px}.tag{color:#546477;font-size:14px}a{color:#185abb}nav{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}nav a{padding:10px 16px;background:white;border:1px solid #d6deea;border-radius:6px;text-decoration:none}nav a:first-child{background:#185abb;color:white}img{width:100%;height:auto;border:1px solid #d6deea;border-radius:8px}iframe{width:100%;height:850px;border:1px solid #d6deea;background:white}footer{margin-top:36px;font-size:14px;color:#546477}.note{border-left:3px solid #185abb;padding-left:18px}code{font-size:14px}</style></head>
+<body><main>
+<p class="tag">Cooperative multi-agent reinforcement learning · Working manuscript · Three completed LIAM seeds</p>
+<h1>Selective Adaptation to Communication and Actuation Shifts</h1>
+<p>When cooperation fails, should an agent reinterpret incoming messages or correct how its movement commands are executed?</p>
+<nav><a href="paper.pdf">Read / download PDF</a><a href="https://github.com/Victor-Caus/selective-marl-adaptation">Code &amp; data</a><a href="manuscript.tex">LaTeX source</a><a href="overleaf.zip">Overleaf project</a></nav>
+<h2>What we tested</h2>
+<p>V2 combines a frozen recurrent MAPPO policy, a learned receiver memory and local motor identification. We evaluate no change, message permutation, actuator rotation and both changes in MPE2 Simple Reference, and compare with simpler corrections and a port of the official LIAM core.</p>
+<p class="note">Motor correction recovers much of the frozen policy's performance. Selective routing has not established an advantage over simpler rules. LIAM wins the message-only and combined conditions in two of three seeds; its weak third seed affects the aggregate ranking. This is a descriptive study, not a peer-reviewed claim of superiority.</p>
+<h2>A trained policy in action</h2>
+<img src="assets/v2-replay.gif" alt="Qualitative replay of V2 navigating in MPE2 Simple Reference">
+<p class="tag">Qualitative replay, not aggregate evidence. <a href="assets/replay.json">Checkpoint hashes and episode selection</a> · <a href="assets/v2-replay.mp4">Video for sharing</a></p>
+<h2>Paper</h2><iframe src="paper.pdf" title="Research manuscript PDF"></iframe>
+<p>If your browser does not display PDFs, <a href="paper.pdf">download the manuscript</a>.</p>
+<h2>Built on prior work</h2>
+<p>Environment: <a href="https://mpe2.farama.org/environments/simple_reference/">Farama MPE2 / Simple Reference</a>, continuing the MPE work of Lowe et al. and Mordatch &amp; Abbeel. Base policy: <a href="https://github.com/marlbenchmark/on-policy">MAPPO, Yu et al.</a> Comparator: <a href="https://github.com/uoe-agents/LIAM">LIAM, Papoudakis, Christianos &amp; Albrecht</a>. Our contribution is the intervention harness, adapter composition and evaluation.</p>
+<h2>Connection to the PSC</h2><p>The planned PSC extension would support authoring games, controlled interventions and reproducible agent evaluations. These experiments use MPE2; the proposed Relay Workshop environment and engine extensions have not yet been evaluated.</p>
+<footer>Built from <a href="https://github.com/Victor-Caus/selective-marl-adaptation/commit/BUILD_SHA">BUILD_SHA</a>. Publication date: BUILD_DATE. The manuscript source in the repository is the editable version.</footer>
+</main></body></html>

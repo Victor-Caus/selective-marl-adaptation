@@ -1,0 +1,40 @@
+{
+  "seeds": [
+    {
+      "seed": 1,
+      "steps": 40000000,
+      "evaluation_sessions": 560,
+      "episodes": 33600
+    },
+    {
+      "seed": 2,
+      "steps": 40000000,
+      "evaluation_sessions": 560,
+      "episodes": 33600
+    },
+    {
+      "seed": 3,
+      "steps": 40000000,
+      "evaluation_sessions": 560,
+      "episodes": 33600
+    }
+  ],
+  "verified_hashes": {
+    "results/liam-comparison-20260928-r1/train-s1/matched.pt": "dd8775b124ce9508e8ec18f7af91e5c664e45c8e1fd1d60ecf6965944b30d966",
+    "results/liam-comparison-20260928-r1/train-s1/final.pt": "090fc32457a7355d9d7ac9937c1432756d518a9690e5a4fb5373670cdd676369",
+    "results/liam-comparison-20260928-r1/train-s2/matched.pt": "a1739f6c5e2f552b8d7e16236c08cf3745d8050ed04b936d6d42a13a2a027c35",
+    "results/liam-comparison-20260928-r1/train-s2/final.pt": "6fd9d12b051cf176fcac1f8eb88ce8cdbe533a28d23f5b9c8004d55eadb3213e",
+    "results/liam-comparison-20260928-r1/train-s3/matched.pt": "6026f531397fce9a29a172ae4f7dee1810f3505e784e12af7c7aa6a24642007f",
+    "results/liam-comparison-20260928-r1/train-s3/final.pt": "81edffa25d25b45803d1bfa6a9df1e7e1294e3f5c403c69f3d14261d9e8c2d08",
+    "results/liam-comparison-20260928-r1/source-snapshot.tar.gz": "2eb2d1ec81f044a8679b31976933f20adedf733808d861f1b1239cad9197d36a",
+    "results/backend-full-s1-20260927/models/actor.pt": "3e21a9ebd6b0eb31685ab61c0b9379f3451b91d188d28b54171d4c2f59818a13",
+    "results/adaptation-v2-20260928-r1/memory-s1/memory.pt": "1289a240b98953334fd10c570abf1f59311cf6bd761ece25807062bd414e1a3a",
+    "results/adaptation-v2-20260928-r1/base-s2/models/actor.pt": "7c8c65519aec31cdd3bda1304f493b704a77820dab9863ae2cebd0c7fedb891e",
+    "results/adaptation-v2-20260928-r1/memory-s2/memory.pt": "ec3cd4a6079e3a13dd648177124b9b23ff02aee89db4413e61db584c0e1f0e62",
+    "results/adaptation-v2-20260928-r1/base-s3/models/actor.pt": "5aa158eaac04eb9e0fe3ec26ceffce26c9bdf8e2703bb601b6115f64c00c3f1c",
+    "results/adaptation-v2-20260928-r1/memory-s3/memory.pt": "c895c144709eb32c5c0642031ae601c8d061953e3a28b083849910f5ae474696",
+    "results/selectivity-controls-20260928-r1/base-s4/models/actor.pt": "a2fd2cc3ac3e2b794687ecb069e0884b1e4542d109c4d1571a305462951d112a",
+    "results/selectivity-controls-20260928-r1/memory-s4/memory.pt": "c52cd61ad26e474b19c05a41b4d0b47c29a4e13002aa13adaea185922ba95f72"
+  },
+  "scope": "Three complete seeds; no retraining"
+}

@@ -1,0 +1,4 @@
+# Preserve the bytes of archived evidence and its checksums across platforms.
+paper/data/** -text
+*.sh text eol=lf
+*.yml text eol=lf

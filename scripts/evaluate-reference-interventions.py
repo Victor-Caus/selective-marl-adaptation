@@ -59,7 +59,7 @@ def session_metrics(returns: list[float], change_episode: int) -> dict[str, floa
     pre = float(values[change_episode - 5 : change_episode].mean())
     post = float(values[change_episode : change_episode + 5].mean())
     regret = float(np.maximum(0.0, pre - values[change_episode:]).sum())
-    target = pre * 0.95
+    target = pre - 0.05 * abs(pre)
     recovery = None
     for episode in range(change_episode, len(values) - 2):
         if bool(np.all(values[episode : episode + 3] >= target)):

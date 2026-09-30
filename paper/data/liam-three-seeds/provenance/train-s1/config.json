@@ -1,0 +1,8 @@
+{
+  "actor": "results/backend-full-s1-20260927/models/actor.pt",
+  "output": "results/liam-comparison-20260928-r1/train-s1",
+  "seed": 1,
+  "steps": 40000000,
+  "envs": 32,
+  "matched_steps": 3420800
+}

@@ -4,6 +4,15 @@
   "policy": "External source code is cloned into the ignored .external directory. It is never copied into this repository without its license and an explicit provenance record.",
   "sources": [
     {
+      "id": "uoe-agents-liam",
+      "title": "Official Local Information Agent Modelling implementation",
+      "repository": "https://github.com/uoe-agents/LIAM.git",
+      "commit": "8545b9e4237eb60ad45b7cb8ed6caec6bc4263b5",
+      "license": "MIT",
+      "citation_key": "papoudakis2021agent",
+      "role": "Official A2C/LIAM core imported without source edits; dimensions ported to MPE2"
+    },
+    {
       "id": "openai-mpe",
       "title": "Multi-Agent Particle Environments",
       "repository": "https://github.com/openai/multiagent-particle-envs.git",

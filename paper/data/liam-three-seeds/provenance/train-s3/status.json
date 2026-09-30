@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "source_commit": "8545b9e4237eb60ad45b7cb8ed6caec6bc4263b5",
+  "seed": 3,
+  "started": 1790639467.9378896,
+  "completed_steps": 40000000,
+  "partner": "results/adaptation-v2-20260928-r1/base-s3/models/actor.pt",
+  "controlled_agent": 1,
+  "total_steps": 40000000,
+  "processes": 32,
+  "label": "official LIAM core, dimension/environment port; not original benchmark reproduction",
+  "mean_train_return": -24.061315642436966,
+  "elapsed_seconds": 9688.95669555664
+}

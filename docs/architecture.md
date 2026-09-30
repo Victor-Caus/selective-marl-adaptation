@@ -1,36 +1,27 @@
 # Architecture
 
-## Environment boundary
+## Environment
 
-`ReferenceSessionEnv` wraps the official MPE2 parallel environment. A semantic intervention
-permutes only the final ten received-message dimensions. A behavioral intervention rotates
-only the movement component of `agent_1`'s discrete product action and preserves its message
-index. Tests verify both invariants.
+`ReferenceSessionEnv` wraps MPE2 Simple Reference. Received-message interventions permute the final ten observation entries at both receivers. The movement intervention rotates only agent 1's movement command, preserving its outgoing symbol. Intervention labels and change points remain outside learner observations.
 
-The behavioral transform is a controlled motor-policy shift, not a claim that every real
-teammate change is a rotation. It provides a known causal source for the first benchmark.
-Additional learned-policy swaps can be added after the controlled study is stable.
+## V2
 
-## Learning systems
+The base is a frozen recurrent MAPPO actor. A separate 128-unit GRU estimates received symbols in the original code from local observations, previous actions and rewards. This receiver memory persists across episodes within a session. A reward/confidence gate enables message correction; a trial can withdraw it if performance deteriorates.
 
-All PPO variants use a shared decentralized actor. Their critic receives the concatenated
-observations of both agents during training. The feed-forward actor is the MAPPO baseline;
-R-MAPPO adds persistent GRU state across episodes in a session.
+The actor is evaluated twice with shared weights and independent recurrent states: corrected observations supply movement probabilities; raw observations supply outgoing-message probabilities. Both actor states reset each episode. The receiver GRU does not share weights with this actor.
 
-The selective model splits each observation into eleven physical dimensions and ten message
-dimensions. Separate encoders and GRU contexts track behavioral and semantic evidence. A
-four-class auxiliary head predicts no change, semantic change, behavioral change, or both.
-Its predicted class freezes the context believed to remain valid and updates only the
-affected context. Training uses the simulator label for routing; evaluation reports both
-predicted routing and an oracle-gated upper-bound ablation.
+The motor module estimates command effects from local velocity transitions and applies an inverse mapping to movement probabilities. It is not another neural policy. Evaluation updates memories, detector statistics and this mapping, but no neural weights.
 
-MADDPG uses two decentralized discrete actors, one centralized critic per agent, target
-networks, experience replay, epsilon exploration, and soft target updates.
+## LIAM comparison
 
-## Evidence flow
+The port uses the released LIAM actor, reconstruction objective and local context encoder. The policy loss does not update the representation encoder. Training uses partner observations/actions as reconstruction targets; execution uses local history. Dimensions and the environment interface are adapted to this task.
 
-Raw transitions become episode records, session-level disruption/recovery metrics, aggregate
-tables, and figures. The experiment label is retained by the harness for scoring but is not
-included in the observation. All generated evidence includes a configuration, Git commit,
-dependency metadata, and seed.
+All methods control only agent 1 with the same frozen partner per training seed. This differs from the earlier simpler-control campaign, where both agents use adapters. Their scores must be read separately.
 
+## Earlier implementations
+
+The repository also retains preliminary in-house MAPPO, MADDPG and factorized-context policies used during development. These are not the V2 architecture and are not substitutes for the reference-backed comparisons in the current paper.
+
+## Records
+
+Episode returns feed session summaries and then training-seed aggregates. The environment records true interventions for scoring, not as learner inputs. Configurations, source revisions and checkpoint hashes identify each campaign.

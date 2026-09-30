@@ -50,7 +50,8 @@ def compute_shift_metrics(
     performance_drop = baseline - immediate
     cumulative_regret = float(np.maximum(0.0, baseline - returns[change_episode:]).sum())
 
-    target = baseline * recovery_threshold
+    # Allow the same relative degradation for positive and negative rewards.
+    target = baseline - (1.0 - recovery_threshold) * abs(baseline)
     recovery_episode: int | None = None
     for index in range(change_episode, len(returns) - recovery_sustain + 1):
         window = returns[index : index + recovery_sustain]

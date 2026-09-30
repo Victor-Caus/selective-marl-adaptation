@@ -1,5 +1,7 @@
 # Baseline reproduction plan
 
+Historical development protocol. The completed V2 campaigns are specified in [LIAM comparison](liam-comparison-protocol.md) and [selectivity controls](selectivity-comparison-protocol.md).
+
 ## Purpose
 
 Validate the environment and learning implementations before evaluating semantic or

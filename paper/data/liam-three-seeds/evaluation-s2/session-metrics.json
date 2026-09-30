@@ -1,0 +1,5602 @@
+[
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -8.64323239477396,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -7.495501242061255,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -7.76284359338463,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -8.495077079736314,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -8.353598808747817,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -8.749887641894828,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -7.872429295613053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -8.7796168129709,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -7.7242862787113085,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -8.034500560965443,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -8.684683359962948,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -7.414666153077519,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -9.356489280516888,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -7.578137691034053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -8.235948949211762,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -7.890072101646357,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -10.191635120375954,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -7.536679612007615,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -8.884938275263133,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "none",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -7.5590147764722,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -15.148329813487045,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -17.79447254727535,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -19.820669384819308,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -18.62218718279083,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -19.936466954034866,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -15.425044267014675,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -15.23835820469858,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -18.196586128396135,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -17.15200551028788,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -18.742477338428937,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -22.322182126585695,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -22.18296751087322,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -20.12790383583108,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -17.92190262985442,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -16.482722606666268,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -19.416656637845975,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -20.72209552705205,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -17.191486114467818,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -23.83066374020465,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "semantic",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -14.915345286623598,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -22.51192588514974,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -20.781639269139657,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -21.928003533829738,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -20.89734467201402,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -21.709398427948482,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -23.588263284584208,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -20.858050581889728,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -23.810750073195884,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -22.419596128504153,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -21.68102760373844,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -23.92101734767911,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -20.784882225789893,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -23.1769445603326,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -20.833404826864136,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -21.958879600759367,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -21.362389176020816,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -24.11105048479604,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -19.828588022053555,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -22.394679518976854,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "behavioral",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -21.921949971414467,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -25.53710699772112,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -25.338303890640812,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -27.897543337568653,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -25.984399985838344,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -28.070714231004377,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -27.50794836198472,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -25.768325959126024,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -27.696216774778993,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -26.280306951112095,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -24.947817929202856,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -30.323432043626482,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -28.58271720683686,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -29.75187716494499,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -27.422054322399216,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -25.695248486085347,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -27.094810372923426,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -29.682631758224932,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -26.29268098969508,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -30.228958984952946,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "frozen",
+    "condition": "both",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -24.99574371680575,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -8.64323239477396,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -7.495501242061255,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -7.76284359338463,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -8.495077079736314,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -8.353598808747817,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -8.749887641894828,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -7.872429295613053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -8.7796168129709,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -7.7242862787113085,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -8.034500560965443,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -8.684683359962948,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -7.414666153077519,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -9.356489280516888,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -7.578137691034053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -8.235948949211762,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -7.890072101646357,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -10.191635120375954,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -7.536679612007615,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -8.884938275263133,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "none",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -7.5590147764722,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -15.148329813487045,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -17.79447254727535,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -19.820669384819308,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -18.62218718279083,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -19.936466954034866,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -15.425044267014675,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -15.23835820469858,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -18.196586128396135,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -17.15200551028788,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -18.742477338428937,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -22.322182126585695,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -22.18296751087322,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -20.12790383583108,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -17.92190262985442,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -16.482722606666268,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -19.416656637845975,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -20.72209552705205,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -17.191486114467818,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -23.83066374020465,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "semantic",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -14.915345286623598,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -9.930751482429782,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -8.300885969172649,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -9.059537633710544,
+    "applied_episodes": 42
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -9.337139720399692,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -9.021407924415639,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -9.177880431219874,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -7.955279384810198,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -9.542168636063163,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -8.907685692099728,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -9.104223275789678,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -9.001965662466752,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -8.118030644137594,
+    "applied_episodes": 40
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -10.213813206089933,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -8.383186233179755,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -9.426806607933287,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -8.186944458943895,
+    "applied_episodes": 44
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -10.832427642006234,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -7.594540851827529,
+    "applied_episodes": 46
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -9.565364373122787,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "behavioral",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -8.430977475266175,
+    "applied_episodes": 36
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -16.124239265626837,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -17.843983129024828,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -21.043137003297925,
+    "applied_episodes": 42
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -19.10590753261174,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -20.18427432395461,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -15.81599528458113,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -15.315046277706482,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -18.711997326260427,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -17.95663485749557,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -19.28293250654752,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -23.140897339489694,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -23.348518149852346,
+    "applied_episodes": 40
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -20.96768660752212,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -18.45128185777191,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -17.344380653017733,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -19.681390286669448,
+    "applied_episodes": 44
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -20.9141787275687,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -17.185531513638484,
+    "applied_episodes": 46
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -24.860600014010842,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "motor_only",
+    "condition": "both",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -15.5996118719749,
+    "applied_episodes": 36
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -8.64323239477396,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -7.495501242061255,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -7.76284359338463,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -8.495077079736314,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -8.353598808747817,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -8.749887641894828,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -7.872429295613053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -8.7796168129709,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -7.7242862787113085,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -8.034500560965443,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -8.684683359962948,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -7.414666153077519,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -9.356489280516888,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -7.578137691034053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -8.235948949211762,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -7.890072101646357,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -10.191635120375954,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -7.536679612007615,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -8.884938275263133,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "none",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -7.5590147764722,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -14.9965617277817,
+    "applied_episodes": 13
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -17.79447254727535,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -17.908632547927546,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -16.97231830597665,
+    "applied_episodes": 20
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -18.42874201164773,
+    "applied_episodes": 25
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -15.843332731550818,
+    "applied_episodes": 20
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -15.23835820469858,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -17.926125718421552,
+    "applied_episodes": 8
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -16.960732156010856,
+    "applied_episodes": 13
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -17.791716643211,
+    "applied_episodes": 10
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -21.3564719209653,
+    "applied_episodes": 21
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -18.770677289812646,
+    "applied_episodes": 32
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -19.365583180079582,
+    "applied_episodes": 17
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -16.731890491190704,
+    "applied_episodes": 26
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -15.523985667821377,
+    "applied_episodes": 27
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -18.257650990380878,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -19.55445023137482,
+    "applied_episodes": 26
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -16.487578600745394,
+    "applied_episodes": 16
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -21.02774183667072,
+    "applied_episodes": 25
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "semantic",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -16.98411056293138,
+    "applied_episodes": 24
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -9.96641584819694,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -8.296846555710907,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -9.058792750699196,
+    "applied_episodes": 42
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -9.356211981878767,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -9.024309183358776,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -9.183213892675719,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -8.038672462605854,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -9.596472805477571,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -8.923585986155677,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -9.146624242794749,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -9.010446303527727,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -8.174250581646893,
+    "applied_episodes": 40
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -10.20236642090151,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -8.379987958167899,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -9.429752183224267,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -8.213248473349156,
+    "applied_episodes": 44
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -10.922453028640142,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -7.599655072547946,
+    "applied_episodes": 46
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -9.61448729481698,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "behavioral",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -8.465542697471344,
+    "applied_episodes": 36
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -16.008116455587952,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -17.119977600418196,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -19.019026286463507,
+    "applied_episodes": 42
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -17.458095799593824,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -18.144257515248768,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -16.91579639535272,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -16.559868253798026,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -17.062190052525825,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -17.582898603610023,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -17.797615095669073,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -21.729864148708067,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -20.679458722877033,
+    "applied_episodes": 40
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -19.51476256103028,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -17.261369765744714,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -16.78311310383007,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -19.668834938724334,
+    "applied_episodes": 44
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -19.01598415487925,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -16.402388401582677,
+    "applied_episodes": 46
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -20.458892709270135,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "joint_v2",
+    "condition": "both",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -17.595071303760548,
+    "applied_episodes": 36
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.56510455562913,
+    "post_return": -8.657467838527209,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.3248778559973315,
+    "post_return": -7.463613186067011,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.117202963555128,
+    "post_return": -7.776451796148528,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.636709292912466,
+    "post_return": -8.50917057105666,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.6072607614291545,
+    "post_return": -8.353460550953653,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.46862190990385,
+    "post_return": -8.753951748868484,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.504598439313925,
+    "post_return": -7.91345898408592,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.54228260867025,
+    "post_return": -8.82736700346333,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.9385321639361575,
+    "post_return": -7.73828108947752,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.87092908124234,
+    "post_return": -8.065888557941031,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.320906605651208,
+    "post_return": -8.703339762324406,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.202360192296563,
+    "post_return": -7.425719386188376,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.377295863337908,
+    "post_return": -9.342062742769006,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.396098924667086,
+    "post_return": -7.607781759051025,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.442770965659046,
+    "post_return": -8.266898610088976,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -11.029931536373443,
+    "post_return": -7.888106589738765,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.213590308059858,
+    "post_return": -10.237125272304812,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.110890390587794,
+    "post_return": -7.535006206611634,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.899358142538233,
+    "post_return": -8.918924955195786,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "none",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.698350100024605,
+    "post_return": -7.56688368587968,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.56510455562913,
+    "post_return": -14.918300672456043,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.3248778559973315,
+    "post_return": -17.14882966354992,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.117202963555128,
+    "post_return": -17.0206737207289,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.636709292912466,
+    "post_return": -16.36933864511898,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.6072607614291545,
+    "post_return": -17.564575647528667,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.46862190990385,
+    "post_return": -16.831853482136736,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.504598439313925,
+    "post_return": -16.56627861389627,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.54228260867025,
+    "post_return": -16.273665837523332,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.9385321639361575,
+    "post_return": -16.463582698196518,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.87092908124234,
+    "post_return": -16.425289241029777,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.320906605651208,
+    "post_return": -19.973606858000174,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.202360192296563,
+    "post_return": -18.674578628477633,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.377295863337908,
+    "post_return": -18.660244481176765,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.396098924667086,
+    "post_return": -16.209978507468037,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.442770965659046,
+    "post_return": -15.775664634816922,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -11.029931536373443,
+    "post_return": -17.737896670305478,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.213590308059858,
+    "post_return": -19.040805848656635,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.110890390587794,
+    "post_return": -16.408586333771343,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.899358142538233,
+    "post_return": -19.808929710628014,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "semantic",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.698350100024605,
+    "post_return": -16.890691116230684,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.56510455562913,
+    "post_return": -9.96641584819694,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.3248778559973315,
+    "post_return": -8.296846555710907,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.117202963555128,
+    "post_return": -9.052575230852119,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.636709292912466,
+    "post_return": -9.356211981878767,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.6072607614291545,
+    "post_return": -9.024309183358776,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.46862190990385,
+    "post_return": -9.183213892675719,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.504598439313925,
+    "post_return": -8.039330030674922,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.54228260867025,
+    "post_return": -9.596472805477571,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.9385321639361575,
+    "post_return": -8.923585986155677,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.87092908124234,
+    "post_return": -9.146624242794749,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.320906605651208,
+    "post_return": -9.010446303527727,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.202360192296563,
+    "post_return": -8.174250581646893,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.377295863337908,
+    "post_return": -10.20236642090151,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.396098924667086,
+    "post_return": -8.379987958167899,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.442770965659046,
+    "post_return": -9.429752183224267,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -11.029931536373443,
+    "post_return": -8.213248473349156,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.213590308059858,
+    "post_return": -10.922453028640142,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.110890390587794,
+    "post_return": -7.599655072547946,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.899358142538233,
+    "post_return": -9.61448729481698,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "behavioral",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.698350100024605,
+    "post_return": -8.465542697471344,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.56510455562913,
+    "post_return": -15.970721571656984,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.3248778559973315,
+    "post_return": -17.16719027077844,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.117202963555128,
+    "post_return": -18.025497634289113,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.636709292912466,
+    "post_return": -16.777954652485292,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.6072607614291545,
+    "post_return": -17.87818764440568,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.46862190990385,
+    "post_return": -17.17266840103631,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.504598439313925,
+    "post_return": -16.78363123712132,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.54228260867025,
+    "post_return": -17.00777876095748,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.9385321639361575,
+    "post_return": -17.56933476445832,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.87092908124234,
+    "post_return": -16.92719476780286,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.320906605651208,
+    "post_return": -20.937630666621402,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.202360192296563,
+    "post_return": -20.019500197780093,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.377295863337908,
+    "post_return": -19.499198222623985,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.396098924667086,
+    "post_return": -17.227818328373125,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.442770965659046,
+    "post_return": -16.78311310383007,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -11.029931536373443,
+    "post_return": -19.108414475684956,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.213590308059858,
+    "post_return": -19.01598415487925,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.110890390587794,
+    "post_return": -16.405212252340977,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.899358142538233,
+    "post_return": -20.43514121184037,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "unguarded_v2",
+    "condition": "both",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.698350100024605,
+    "post_return": -17.57975398032085,
+    "applied_episodes": 52
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -8.64323239477396,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -7.495501242061255,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -7.76284359338463,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -8.495077079736314,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -8.353598808747817,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -8.749887641894828,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -7.872429295613053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -8.7796168129709,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -7.7242862787113085,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -8.034500560965443,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -8.684683359962948,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -7.414666153077519,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -9.356489280516888,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -7.578137691034053,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -8.235948949211762,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -7.890072101646357,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -10.191635120375954,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -7.536679612007615,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -8.884938275263133,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "none",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -7.5590147764722,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -14.9965617277817,
+    "applied_episodes": 13
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -17.79447254727535,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -17.908632547927546,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -16.97231830597665,
+    "applied_episodes": 20
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -18.42874201164773,
+    "applied_episodes": 25
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -15.843332731550818,
+    "applied_episodes": 20
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -15.23835820469858,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -17.926125718421552,
+    "applied_episodes": 8
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -16.960732156010856,
+    "applied_episodes": 13
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -17.791716643211,
+    "applied_episodes": 10
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -21.3564719209653,
+    "applied_episodes": 21
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -18.770677289812646,
+    "applied_episodes": 32
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -19.365583180079582,
+    "applied_episodes": 17
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -16.731890491190704,
+    "applied_episodes": 26
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -15.523985667821377,
+    "applied_episodes": 27
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -18.257650990380878,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -19.55445023137482,
+    "applied_episodes": 26
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -16.487578600745394,
+    "applied_episodes": 16
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -21.02774183667072,
+    "applied_episodes": 25
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "semantic",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -16.98411056293138,
+    "applied_episodes": 24
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -9.930751482429782,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -8.300885969172649,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -9.059537633710544,
+    "applied_episodes": 42
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -9.337139720399692,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -9.021407924415639,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -9.177880431219874,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -7.955279384810198,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -9.542168636063163,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -8.907685692099728,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -9.104223275789678,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -9.001965662466752,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -8.118030644137594,
+    "applied_episodes": 40
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -10.213813206089933,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -8.383186233179755,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -9.426806607933287,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -8.186944458943895,
+    "applied_episodes": 44
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -10.832427642006234,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -7.594540851827529,
+    "applied_episodes": 46
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -9.565364373122787,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "behavioral",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -8.430977475266175,
+    "applied_episodes": 36
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -9.544771813793286,
+    "post_return": -15.944198697664737,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -7.247763908274317,
+    "post_return": -17.843983129024828,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -6.140573547045895,
+    "post_return": -18.692923787737307,
+    "applied_episodes": 42
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -8.647577923588496,
+    "post_return": -17.514081390102003,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -7.622281117651039,
+    "post_return": -18.492346503911243,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -4.4697046953869775,
+    "post_return": -16.275952887242912,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -4.4558442427911436,
+    "post_return": -15.315046277706482,
+    "applied_episodes": 34
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -9.541551668404669,
+    "post_return": -18.48055997770835,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -4.956485914928698,
+    "post_return": -17.570905849542136,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -7.872225967891831,
+    "post_return": -18.421219155638685,
+    "applied_episodes": 35
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -6.278537286719323,
+    "post_return": -22.080004301175848,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -8.18950267584032,
+    "post_return": -19.84916153110155,
+    "applied_episodes": 40
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -9.178509104192083,
+    "post_return": -19.83034014111781,
+    "applied_episodes": 31
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -6.410252325410302,
+    "post_return": -17.397628669690672,
+    "applied_episodes": 38
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -7.226032998874217,
+    "post_return": -16.393588415450242,
+    "applied_episodes": 47
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -10.994375548323045,
+    "post_return": -18.382613255978153,
+    "applied_episodes": 44
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -9.19399201679558,
+    "post_return": -19.81843016766801,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -9.121843636946673,
+    "post_return": -16.513657918670322,
+    "applied_episodes": 46
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -7.8745149055659995,
+    "post_return": -22.00494290772348,
+    "applied_episodes": 37
+  },
+  {
+    "mode": "selective_v2",
+    "condition": "both",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -10.67293830333067,
+    "post_return": -17.669396533640118,
+    "applied_episodes": 36
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -32.954003688095455,
+    "post_return": -24.825986268195177,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -26.263930951454494,
+    "post_return": -22.990206059866136,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -24.57594419837694,
+    "post_return": -25.019014162125885,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -24.239018333252197,
+    "post_return": -25.577776502242497,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -21.867601414095716,
+    "post_return": -24.982594279269602,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -20.80296156468462,
+    "post_return": -25.912809041595693,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -17.037019781167135,
+    "post_return": -24.456465307282638,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -30.51900673511779,
+    "post_return": -26.093657885461894,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -23.04539200389941,
+    "post_return": -24.293275781638183,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -22.146726610907855,
+    "post_return": -22.146685421893956,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -25.292065336610495,
+    "post_return": -25.423658619033624,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -21.556602795341867,
+    "post_return": -24.141621053282968,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -29.27753460868704,
+    "post_return": -22.87974384543895,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -24.586463652570597,
+    "post_return": -24.488742329118537,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -23.77994735503373,
+    "post_return": -24.298841544795202,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -24.38194944870403,
+    "post_return": -23.528098648032554,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -20.030684794989178,
+    "post_return": -30.021208173230512,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -31.091818328152385,
+    "post_return": -21.15029843643825,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -23.54913919024751,
+    "post_return": -26.327089701474442,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "none",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -25.214076354445993,
+    "post_return": -25.152713229464247,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -32.954003688095455,
+    "post_return": -25.152849336577855,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -26.263930951454494,
+    "post_return": -25.475657980489107,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -24.57594419837694,
+    "post_return": -24.79179127124864,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -24.239018333252197,
+    "post_return": -26.58295078228189,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -21.867601414095716,
+    "post_return": -26.052415282982537,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -20.80296156468462,
+    "post_return": -27.007169370028922,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -17.037019781167135,
+    "post_return": -23.678775383611665,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -30.51900673511779,
+    "post_return": -25.922244633613023,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -23.04539200389941,
+    "post_return": -25.76012311231945,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -22.146726610907855,
+    "post_return": -25.250634629572577,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -25.292065336610495,
+    "post_return": -27.120232712493607,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -21.556602795341867,
+    "post_return": -25.270519422420744,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -29.27753460868704,
+    "post_return": -25.423641442535438,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -24.586463652570597,
+    "post_return": -28.091574517786846,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -23.77994735503373,
+    "post_return": -24.860635458614553,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -24.38194944870403,
+    "post_return": -26.206436021610276,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -20.030684794989178,
+    "post_return": -30.104155724701723,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -31.091818328152385,
+    "post_return": -22.44059828201971,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -23.54913919024751,
+    "post_return": -27.05063992057698,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "semantic",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -25.214076354445993,
+    "post_return": -27.395525161300323,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -32.954003688095455,
+    "post_return": -25.009886876368313,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -26.263930951454494,
+    "post_return": -22.13960078573506,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -24.57594419837694,
+    "post_return": -24.763567327925752,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -24.239018333252197,
+    "post_return": -24.78048252777468,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -21.867601414095716,
+    "post_return": -23.542380112684228,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -20.80296156468462,
+    "post_return": -25.450726526181306,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -17.037019781167135,
+    "post_return": -23.624297978676065,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -30.51900673511779,
+    "post_return": -24.95736497731274,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -23.04539200389941,
+    "post_return": -24.061188069931806,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -22.146726610907855,
+    "post_return": -21.630477419936327,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -25.292065336610495,
+    "post_return": -25.123541815299294,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -21.556602795341867,
+    "post_return": -23.341406352185924,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -29.27753460868704,
+    "post_return": -22.546828339645057,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -24.586463652570597,
+    "post_return": -24.211402804620462,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -23.77994735503373,
+    "post_return": -24.431777696194803,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -24.38194944870403,
+    "post_return": -22.789313736645113,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -20.030684794989178,
+    "post_return": -28.735707210188593,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -31.091818328152385,
+    "post_return": -20.444491366591073,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -23.54913919024751,
+    "post_return": -25.509936006796455,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "behavioral",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -25.214076354445993,
+    "post_return": -25.202315962953364,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -32.954003688095455,
+    "post_return": -25.34464625929087,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -26.263930951454494,
+    "post_return": -24.184757260706164,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -24.57594419837694,
+    "post_return": -24.69590688849742,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -24.239018333252197,
+    "post_return": -25.862652703196687,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -21.867601414095716,
+    "post_return": -25.021859619123127,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -20.80296156468462,
+    "post_return": -26.606035713595126,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -17.037019781167135,
+    "post_return": -22.88781135645374,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -30.51900673511779,
+    "post_return": -25.12787037539331,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -23.04539200389941,
+    "post_return": -24.918137857989613,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -22.146726610907855,
+    "post_return": -24.918980367221042,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -25.292065336610495,
+    "post_return": -26.891636923634792,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -21.556602795341867,
+    "post_return": -24.29871130083641,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -29.27753460868704,
+    "post_return": -24.752413571704356,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -24.586463652570597,
+    "post_return": -28.300477429457075,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -23.77994735503373,
+    "post_return": -25.15750043809514,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -24.38194944870403,
+    "post_return": -26.041549408558293,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -20.030684794989178,
+    "post_return": -29.15951101866891,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -31.091818328152385,
+    "post_return": -22.1589520838864,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -23.54913919024751,
+    "post_return": -25.763537747511286,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_matched",
+    "condition": "both",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -25.214076354445993,
+    "post_return": -26.787573168765164,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -14.529159022625475,
+    "post_return": -12.151521746368825,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -11.409312789485304,
+    "post_return": -11.474553760264453,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -11.046235917141221,
+    "post_return": -11.624646331791451,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -15.319313389682971,
+    "post_return": -13.019318737994356,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -14.337126742870728,
+    "post_return": -12.46234340948333,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -7.390254145472474,
+    "post_return": -13.187946825836155,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -9.12103718768339,
+    "post_return": -12.274888611613022,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -14.770925434763598,
+    "post_return": -13.48288717372435,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -8.178401409930675,
+    "post_return": -11.936153918245003,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -10.616355067512856,
+    "post_return": -11.380859390662378,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -11.183909439348898,
+    "post_return": -12.535677593687396,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -11.429479631157237,
+    "post_return": -11.361275138545457,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -12.81775034935655,
+    "post_return": -13.698892821278136,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -11.146211883405526,
+    "post_return": -11.539754205005002,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -10.843353393585359,
+    "post_return": -12.433379338225372,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -14.648750771455644,
+    "post_return": -11.672475049191018,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -11.289964290125647,
+    "post_return": -14.951552151803108,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -11.961541925574494,
+    "post_return": -11.502086703988363,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -13.019575587644994,
+    "post_return": -12.612526330210308,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "none",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -14.259928559154218,
+    "post_return": -12.149457116800612,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -14.529159022625475,
+    "post_return": -16.153201573112835,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -11.409312789485304,
+    "post_return": -16.601807790320795,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -11.046235917141221,
+    "post_return": -16.543460510072983,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -15.319313389682971,
+    "post_return": -19.44876315280566,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -14.337126742870728,
+    "post_return": -17.547260774962897,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -7.390254145472474,
+    "post_return": -17.70073474065004,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -9.12103718768339,
+    "post_return": -15.44754609767779,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -14.770925434763598,
+    "post_return": -16.970783989854063,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -8.178401409930675,
+    "post_return": -16.489549630225987,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -10.616355067512856,
+    "post_return": -17.37432606803287,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -11.183909439348898,
+    "post_return": -19.492693311883908,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -11.429479631157237,
+    "post_return": -17.283874056599608,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -12.81775034935655,
+    "post_return": -18.78613600542856,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -11.146211883405526,
+    "post_return": -16.432715013827085,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -10.843353393585359,
+    "post_return": -17.267766197904056,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -14.648750771455644,
+    "post_return": -17.317460449320755,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -11.289964290125647,
+    "post_return": -20.52361687627141,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -11.961541925574494,
+    "post_return": -16.378087832302736,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -13.019575587644994,
+    "post_return": -18.63081419250425,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "semantic",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -14.259928559154218,
+    "post_return": -16.9236858086102,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -14.529159022625475,
+    "post_return": -12.925116643105946,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -11.409312789485304,
+    "post_return": -12.582260650079347,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -11.046235917141221,
+    "post_return": -12.404948771646714,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -15.319313389682971,
+    "post_return": -13.232184013860603,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -14.337126742870728,
+    "post_return": -13.036995982641395,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -7.390254145472474,
+    "post_return": -13.926504468819767,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -9.12103718768339,
+    "post_return": -13.370760825388405,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -14.770925434763598,
+    "post_return": -14.178568154784749,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -8.178401409930675,
+    "post_return": -12.519724479571666,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -10.616355067512856,
+    "post_return": -12.511891155827582,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -11.183909439348898,
+    "post_return": -13.037005956238751,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -11.429479631157237,
+    "post_return": -12.10353206384259,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -12.81775034935655,
+    "post_return": -13.684357152525887,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -11.146211883405526,
+    "post_return": -11.93201542379664,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -10.843353393585359,
+    "post_return": -13.577049172147158,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -14.648750771455644,
+    "post_return": -12.464725055422242,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -11.289964290125647,
+    "post_return": -15.693920679623538,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -11.961541925574494,
+    "post_return": -12.385414227910871,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -13.019575587644994,
+    "post_return": -13.533812878846257,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "behavioral",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -14.259928559154218,
+    "post_return": -12.650019664207434,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 0,
+    "seed": 16000001,
+    "change_episode": 23,
+    "pre_return": -14.529159022625475,
+    "post_return": -16.553092242243064,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 1,
+    "seed": 16001001,
+    "change_episode": 29,
+    "pre_return": -11.409312789485304,
+    "post_return": -16.388339970833417,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 2,
+    "seed": 16002001,
+    "change_episode": 18,
+    "pre_return": -11.046235917141221,
+    "post_return": -16.56050824497016,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 3,
+    "seed": 16003001,
+    "change_episode": 26,
+    "pre_return": -15.319313389682971,
+    "post_return": -19.047153530031412,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 4,
+    "seed": 16004001,
+    "change_episode": 22,
+    "pre_return": -14.337126742870728,
+    "post_return": -17.40470232051847,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 5,
+    "seed": 16005001,
+    "change_episode": 13,
+    "pre_return": -7.390254145472474,
+    "post_return": -17.9622716690151,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 6,
+    "seed": 16006001,
+    "change_episode": 26,
+    "pre_return": -9.12103718768339,
+    "post_return": -15.51497507791815,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 7,
+    "seed": 16007001,
+    "change_episode": 25,
+    "pre_return": -14.770925434763598,
+    "post_return": -17.16346017322092,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 8,
+    "seed": 16008001,
+    "change_episode": 23,
+    "pre_return": -8.178401409930675,
+    "post_return": -16.645655116254556,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 9,
+    "seed": 16009001,
+    "change_episode": 25,
+    "pre_return": -10.616355067512856,
+    "post_return": -17.394867950066075,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 10,
+    "seed": 16010001,
+    "change_episode": 22,
+    "pre_return": -11.183909439348898,
+    "post_return": -19.422443630658627,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 11,
+    "seed": 16011001,
+    "change_episode": 20,
+    "pre_return": -11.429479631157237,
+    "post_return": -17.324307604226618,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 12,
+    "seed": 16012001,
+    "change_episode": 29,
+    "pre_return": -12.81775034935655,
+    "post_return": -18.530424353913254,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 13,
+    "seed": 16013001,
+    "change_episode": 22,
+    "pre_return": -11.146211883405526,
+    "post_return": -16.391933737319864,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 14,
+    "seed": 16014001,
+    "change_episode": 13,
+    "pre_return": -10.843353393585359,
+    "post_return": -17.835436433239188,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 15,
+    "seed": 16015001,
+    "change_episode": 16,
+    "pre_return": -14.648750771455644,
+    "post_return": -17.17114707079961,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 16,
+    "seed": 16016001,
+    "change_episode": 23,
+    "pre_return": -11.289964290125647,
+    "post_return": -20.01362350561014,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 17,
+    "seed": 16017001,
+    "change_episode": 14,
+    "pre_return": -11.961541925574494,
+    "post_return": -16.369823697645906,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 18,
+    "seed": 16018001,
+    "change_episode": 23,
+    "pre_return": -13.019575587644994,
+    "post_return": -18.80466410690233,
+    "applied_episodes": 0
+  },
+  {
+    "mode": "liam_long",
+    "condition": "both",
+    "session": 19,
+    "seed": 16019001,
+    "change_episode": 24,
+    "pre_return": -14.259928559154218,
+    "post_return": -17.12641029018654,
+    "applied_episodes": 0
+  }
+]

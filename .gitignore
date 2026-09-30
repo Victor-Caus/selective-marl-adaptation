@@ -14,6 +14,14 @@ wandb/
 results/runs/
 results/raw/
 results/reference-runs/
+results/backend-*
+results/comparison-*
+results/adaptation-v2-*
+results/adapters-v2-*
+results/selectivity-*
+selectivity-controls-upload.tar.gz
+results/liam-*
+liam-comparison-upload.tar.gz
 diagnostics/
 *.pt
 *.pth
@@ -22,3 +30,26 @@ diagnostics/
 .idea/
 .vscode/
 
+paper/.mpl-cache/
+
+# Local operational history and superseded publication drafts
+docs/active-experiment.md
+docs/research-ledger.md
+docs/adaptation-strategy-20260927.md
+paper/PUBLICATION.md
+paper/manuscript-template.tex
+paper/manuscript-v0.1.*
+paper/manuscript-v0.2.md
+paper/psc-extension.md
+paper/psc-marl-overleaf-*.zip
+remote-cache-fix.bundle
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/manuscript-v0.2.pdf
+!site/assets/*.gif
+!site/assets/*.mp4
+
+paper/build_partial_figures.py
+scripts/audit-recovered-liam.py
+scripts/package-three-seed-report.py

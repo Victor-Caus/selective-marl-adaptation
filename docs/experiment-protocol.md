@@ -1,5 +1,7 @@
 # Experiment protocol
 
+Historical development protocol. The completed V2 campaigns are specified in [LIAM comparison](liam-comparison-protocol.md) and [selectivity controls](selectivity-comparison-protocol.md).
+
 ## Objective
 
 Determine whether explicit diagnosis of semantic and behavioral shifts enables faster,

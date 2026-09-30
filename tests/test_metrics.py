@@ -35,3 +35,10 @@ def test_diagnosis_metrics() -> None:
     assert classification_accuracy(["none", "semantic"], ["none", "both"]) == 0.5
     assert detection_delay(10, 14) == 4
     assert detection_delay(10, None) is None
+
+
+def test_negative_return_recovery_allows_five_percent_degradation() -> None:
+    metrics = compute_shift_metrics(
+        [-10, -10, -20, -10.4, -10.3, -10.2], change_episode=2, recovery_sustain=3
+    )
+    assert metrics.recovery_delay == 1

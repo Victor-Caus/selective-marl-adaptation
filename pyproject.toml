@@ -26,6 +26,10 @@ analysis = [
   "pandas>=2.1",
   "seaborn>=0.13",
 ]
+media = [
+  "imageio>=2.31",
+  "imageio-ffmpeg>=0.4",
+]
 dev = [
   "pytest>=8.0",
   "pytest-cov>=5.0",

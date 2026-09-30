@@ -1,0 +1,9 @@
+{
+  "actor": "results/adaptation-v2-20260928-r1/base-s2/models/actor.pt",
+  "memory": "results/adaptation-v2-20260928-r1/memory-s2/memory.pt",
+  "matched": "results/liam-comparison-20260928-r1/train-s2/matched.pt",
+  "long": "results/liam-comparison-20260928-r1/train-s2/final.pt",
+  "output": "results/liam-comparison-20260928-r1/evaluation-s2",
+  "sessions": 20,
+  "seed": 16000001
+}

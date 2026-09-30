@@ -1,148 +1,81 @@
-# Selective Adaptation in Multi-Agent Communication
+# Selective adaptation in cooperative multi-agent learning
 
-This project studies a practical failure mode in cooperative multi-agent systems: when
-coordination breaks, did the communication protocol change, did the teammate's behavior
-change, or did both change?
+**[Read the paper](https://Victor-Caus.github.io/selective-marl-adaptation/paper.pdf)** · [Project page](https://Victor-Caus.github.io/selective-marl-adaptation/) · [LaTeX source](paper/manuscript-v0.2.tex) · [Evaluation data](paper/data/liam-three-seeds)
 
-The first benchmark is built on MPE2 `Simple Reference`. It introduces controlled change
-points while preserving the original task dynamics. An agent must detect the change,
-attribute its source, and update only the affected component. `Simple World Comm` is the
-planned second environment after the complete `Simple Reference` protocol is validated.
+What should an agent change when cooperation breaks down: how it interprets a message, or how it executes a movement?
 
-## Research question
+This project studies that question in MPE2 **Simple Reference**, a two-agent communication task. We perturb received symbols, movement commands, both interfaces, or neither. V2 wraps a frozen recurrent MAPPO policy with a learned message translator and an online motor correction. A gate decides when to enable message correction and withdraws it if returns deteriorate.
 
-Can a cooperative agent distinguish semantic shifts from behavioral policy shifts and
-recover faster by selectively adapting its communication or teammate-model component?
+## Results
 
-The benchmark evaluates four conditions:
+The LIAM comparison contains three completed training seeds, seven methods and four conditions, with 20 sessions of 60 episodes per combination. Only agent 1 adapts; its partner remains frozen. LIAM uses its official core with an environment/dimension port, not a reproduction of the original paper's benchmark scores.
 
-| Condition | Message semantics | Teammate behavior |
+| Method | No change | Message permutation | Movement rotation | Both |
+| --- | ---: | ---: | ---: | ---: |
+| Frozen policy | −8.11 | −19.49 | −22.57 | −28.17 |
+| Motor correction only | −8.11 | −19.49 | −9.01 | −20.17 |
+| Unguarded V2 | −8.15 | −18.11 | −9.07 | −18.87 |
+| Selective V2 | −8.11 | −18.50 | −9.01 | −19.13 |
+| LIAM, 40M steps | −15.52 | −19.40 | −16.08 | −19.46 |
+
+Mean post-change team return; higher is better. The paper includes all seven methods, seed-level results and uncertainty.
+
+Motor correction recovers much of the frozen policy's performance. Selective message correction does not consistently beat simpler correction rules. Although V2 has higher aggregate returns than LIAM, LIAM wins the message-only and combined conditions in two of the three seeds. Its third seed performs poorly even before the change. All exploratory paired 95% intervals include zero.
+
+The planned five-seed LIAM criterion was not evaluated after the study closed with three seeds. A separate five-seed campaign with two adaptive agents failed its selectivity-superiority criterion. These campaigns are reported separately. This is a working research manuscript, not a peer-reviewed result or a claim of general superiority.
+
+## Demonstration
+
+![Replay of the trained V2 policy in MPE2 Simple Reference](site/assets/v2-replay.gif)
+
+A qualitative replay from a trained checkpoint. [Replay metadata](site/assets/replay.json) records the checkpoint hashes, scenario and episode selection. The demonstration is separate from aggregate evidence; the environment has continuous rewards rather than a binary success flag.
+
+## Environment and methods
+
+| Condition | Received messages | Agent 1 movement commands |
 | --- | --- | --- |
 | `none` | unchanged | unchanged |
-| `semantic` | changed | unchanged |
-| `behavioral` | unchanged | changed |
-| `both` | changed | changed |
+| `semantic` | fixed symbol permutation at both receivers | unchanged |
+| `behavioral` | unchanged | fixed clockwise rotation |
+| `both` | symbol permutation at both receivers | clockwise rotation |
 
-The distinction is deliberately causal: the experiment controller records which mechanism
-was intervened on. During evaluation, the learner receives observations, messages, actions,
-and rewards, but not the intervention label.
+`behavioral` is the historical code label for an actuator perturbation, not a change in the partner's strategy. The agent is not given the intervention label, permutation or change point.
 
-## Current status
+The current V2 implementation is in [adapters_v2.py](src/selective_marl/adapters_v2.py). Its receiver GRU has its own weights; motor correction uses local system identification. Two passes through the same frozen base actor produce movements from corrected observations and outgoing messages from raw observations. [Architecture](docs/architecture.md) explains this separation.
 
-- [x] Research protocol and mechanism-isolated interventions
-- [x] Structured metrics and diagnostic bundles
-- [x] Random and no-communication controls
-- [x] Discrete MADDPG and MAPPO baselines
-- [x] Channel-randomized MAPPO and recurrent MAPPO/GRU
-- [x] Factorized semantic/behavioral contexts with four-class diagnosis
-- [x] Selective context updates and oracle-gated ablation
-- [x] Automated plots, CSV tables, GIFs, checkpoints, and CI
-- [x] Pinned official MAPPO source and isolated Windows reproduction runner
-- [ ] Run the preregistered long experiments on multiple seeds
-- [ ] Review evidence before opening the `Simple World Comm` stage
-
-The in-house learning algorithms are preliminary reimplementations. Reference reproduction
-and parity checks now precede any scientific comparison; see
-[the reproduction plan](docs/reproduction-plan.md).
-
-## Setup
+## Installation
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+source .venv/bin/activate
 python -m pip install -e ".[dev,analysis]"
 pytest
 selective-marl-smoke --episodes 5 --seed 42
 ```
 
-On Windows, the complete engineering check is:
+On Windows, activate with `.venv\Scripts\Activate.ps1`. Smoke tests check execution, not scientific performance. Reference-backed experiments additionally require the pinned MAPPO and LIAM sources described in [reproductions](reproductions/references.lock.json) and the [runbook](docs/runbook.md).
 
-```powershell
-.\scripts\setup.ps1
-.\scripts\run-smoke.ps1
-```
+## Reproducing the study
 
-The smoke profile trains every method briefly and verifies every artifact. It is not a
-scientific result. For an exploratory run and the preregistered long run:
+- [LIAM protocol](docs/liam-comparison-protocol.md): checkpoints, budgets, pairing and original primary criterion.
+- [Simpler-control protocol](docs/selectivity-comparison-protocol.md): the separate five-seed campaign.
+- [Raw evaluations and audit](paper/data/liam-three-seeds): 1,680 sessions and 100,800 episode records.
+- [Paper source and publication build](paper/README.md): figures, bibliography and automated PDF publication.
 
-```powershell
-.\scripts\run-quick.ps1
-.\scripts\run-research.ps1
-```
+Large checkpoints and machine-specific logs are excluded from Git. Earlier in-house algorithms remain available for provenance and engineering tests; they are distinct from the reference-backed methods in the paper.
 
-See [the runbook](docs/runbook.md) for expected duration, output files, and how to share a
-diagnostic bundle.
+## Relation to the PSC
 
-Before using the preliminary implementations for comparisons, reproduce the official
-R-MAPPO baseline:
+This study explores the kind of experiment we want to support with the PSC game-environment engine: construct a cooperative task, change one interface, and inspect how agents recover. The reported experiments run in MPE2. The proposed Relay Workshop game and MARL extensions to the PSC engine are future work, described in the paper's appendix.
 
-```powershell
-.\scripts\setup-reference-mappo.ps1
-.\scripts\run-reference-mappo.ps1 -Profile smoke
-.\scripts\run-reference-mappo.ps1 -Profile full
-```
+## Credits
 
-The local Windows runner keeps all 128 official environments but advances them sequentially
-because spawning 32 or 128 Python processes exhausts this host's virtual memory. See
-[the recorded host deviations](reproductions/host-deviations.md).
+- **Environment:** [Farama Foundation MPE2](https://mpe2.farama.org/environments/simple_reference/), continuing the Multi-Agent Particle Environments associated with Lowe et al. and Mordatch & Abbeel.
+- **Base policy:** [MAPPO](https://github.com/marlbenchmark/on-policy), Chao Yu, Akash Velu, Eugene Vinitsky, Jiaxuan Gao, Yu Wang, Alexandre Bayen and Yi Wu.
+- **Comparator:** [LIAM](https://github.com/uoe-agents/LIAM), Georgios Papoudakis, Filippos Christianos and Stefano V. Albrecht.
 
-## Watch a trained policy
-
-Open a live MPE2 window using the newest checkpoint for an algorithm:
-
-```powershell
-.\scripts\watch-latest.ps1 -Algorithm mappo -Condition semantic
-.\scripts\watch-latest.ps1 -Algorithm selective -Condition behavioral
-```
-
-The default playback shows one episode before and one episode after the selected controlled
-shift. Existing pipeline GIFs remain available under each evaluation directory's `videos/`.
-
-## Repository layout
-
-```text
-configs/       versioned experiment configurations
-docs/          protocol, metrics, literature map, and reproducibility rules
-paper/         manuscript material once the protocol is stable
-results/       generated summaries and result documentation
-src/           benchmark, interventions, evaluation, and experiment code
-tests/         deterministic unit and integration tests
-```
-
-## Reproducibility policy
-
-Every reported number must be traceable to a committed configuration, code revision,
-environment version, seed list, and raw run identifier. Aggregate tables must report the
-number of seeds and uncertainty, not only the best run. Failed and incomplete runs are
-retained in the experiment manifest and excluded only by documented rules.
-
-See [the experiment protocol](docs/experiment-protocol.md), [metric definitions](docs/metrics.md),
-and [the literature map](docs/related-work.md) before adding algorithms or reporting results.
-
-## Generated artifacts
-
-Every pipeline run creates an ignored directory under `results/runs/` containing:
-
-- `metadata.json`, resolved configuration, and console log;
-- episode-level JSONL and CSV records;
-- model checkpoint for each trained policy;
-- aggregate `summary.csv`, `summary.json`, and `REPORT.md`;
-- recovery curves and comparison plots;
-- rendered GIFs for qualitative inspection;
-- `diagnostic-bundle.zip` containing all shareable diagnostics except large checkpoints.
-
-`.venv`, `.pytest_cache`, `.ruff_cache`, `.cache`, raw runs, checkpoints, and generated GIFs
-are ignored by Git. They can appear in an editor's file tree without being committed.
-
-## Citation
-
-This repository is under active development. Release-specific citation metadata will be
-archived when the first benchmark version is complete. Until then, use the metadata in
-`CITATION.cff` and cite MPE2 and the original MPE/MADDPG work as described in
-`docs/related-work.md`.
+Our work concerns the intervention harness, adapter composition and evaluation. External algorithms and the particle simulator retain their original authorship and licenses. See [references](paper/references.bib) and [source revisions](reproductions/references.lock.json).
 
 ## License
 
-Code in this repository is released under the MIT License. External environments,
-implementations, datasets, and figures retain their original licenses.
-
+Project code is MIT licensed. External implementations and environment assets retain their respective licenses. The paper is distributed as a working manuscript for review.
