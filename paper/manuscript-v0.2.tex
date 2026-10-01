@@ -252,7 +252,7 @@ We propose five diagnostic comparisons using fresh seeds and a protocol fixed be
 \section{Limitations and reproducibility}
 The evidence covers one small cooperative environment, one fixed actuator rotation and message permutations; it does not establish general robustness to nonstationary teammates. Intervention severity and scope are unequal. The policy families, interaction budgets, training privileges, recurrent horizons and optimization schedules differ. The original LIAM benchmark has not been reproduced. Only three of the five planned LIAM seeds were completed, limiting precision and leaving the confirmatory criterion unevaluated. All completed seeds are included, including the low-performing third seed.
 
-Appendix~\ref{app:audit} records artifact checks, implementation tests and the interrupted runs. Appendix~\ref{app:psc} develops the proposed Relay Workshop task and the PSC extensions needed to support it; neither is part of the experiments reported here.
+Appendix~\ref{app:audit} records artifact checks, implementation tests and the interrupted runs. Appendix~\ref{app:future} outlines a proposed task and controls for future evaluation; these have not been implemented or evaluated.
 
 \section{Conclusion}
 This preliminary study separates evidence for a useful motor correction from evidence for selective routing and semantic adaptation. The current system provides a concrete, inspectable decomposition and strong movement recovery in the tested setting, but has not established superiority of selective adaptation. The central research opportunity is to determine when mechanism-specific correction is identifiable and when preserving a communication component prevents joint recovery. The LIAM comparison remains descriptive because only three of its five planned seeds were completed. The proposed diagnostic controls would test whether the limited semantic recovery arises from decoding errors, delayed activation or the uncorrected partner.
@@ -266,9 +266,7 @@ Additional implementation tests verify exact action/value initialization and opt
 An interruption occurred in seed 4 at 24,800,800 steps. Its checkpoint lacked optimizer, return-normalization and random-generator states. The interrupted run was preserved and the same seed restarted from scratch with the unchanged 40M-step protocol; seed 5 was scheduled afterward but was not completed. The partial run is not used to select a favourable checkpoint. The restarted seed 4 was later interrupted at a last recorded 7,440,800 steps. The institutional systems team subsequently confirmed termination of processes for excessive compute use during teaching hours. On 29 September 2026 the study was closed because no time remained for further training. The report retains only the three complete evaluations, including the weak third LIAM seed, and discloses the unfulfilled five-seed plan. Intensive computation on these servers is restricted to nights and weekends.
 
 
-\section{Future environments and the PSC engine}\label{app:psc}
-
-The experiments in this paper were conducted as an individual research study, independently of the group PSC (Projet Scientifique Collectif). The PSC is a separate game-engine project whose long-term goal is to support the creation of environments for AI experiments. The following proposal illustrates a possible research application of that engine.
+\section{Future evaluation environments}\label{app:future}
 
 The proposed extension investigates how the benefit of separate communication and action corrections depends on observability, intervention scope and coupling between the two mechanisms. The negative routing result motivates testing both settings that favour modular adaptation and settings in which a shared representation may perform better.
 
@@ -299,18 +297,6 @@ Evaluation would begin with scripted planners and centralized-information contro
 
 Overcooked offers an established cooperative coordination setting \cite{carroll2019}. It is useful for testing joint planning and role coordination, but explicit relabelled communication would be an extension, not a claim about the original benchmark. Hanabi offers partial information and constrained communication \cite{bard2019}; it could test semantic conventions, but is less directly suited to physical actuator shifts. An additional established benchmark helps distinguish a method's generality from advantages engineered into Relay Workshop. Neither environment has been ported or evaluated in this project.
 
-\subsection{PSC: present capabilities and required extensions}
-
-The current PSC repository contains a C\#/WPF grid editor, scripted rules, persistent game documents, local playtesting and transition-tree analysis. Its core contracts are separated from the user interface, but the editor currently targets two-player placement/alignment games. It does not yet provide the MARL training backend, partial-observation interface, simultaneous robot actions, or Python environment bridge required by Relay Workshop. The MPE2 experiments reported above were not run inside PSC.
-
-The proposed extension comprises a headless deterministic runner, agent-specific observation and action interfaces, a seeded intervention scheduler separate from game rules, a Python adapter following a PettingZoo interface \cite{terry2021}, and replay exports identifying each intervention. Simultaneous decisions would require collecting both agents' actions before advancing the world; an alternating-turn interface would instead specify the timing of each decision. The WPF editor would support layout authoring and replay inspection, with training handled by a headless Linux runner. This portability has not yet been implemented or tested.
-
-Each experiment would be identified by versioned game rules, observation definitions, intervention settings and a seed manifest. Privileged labels would be stored in evaluator-only logs. Validation would cover deterministic replay, observation leakage, action validity, episode termination and agreement between interactive and headless execution. Paired intervention and no-change runs would share the same initial state and random seed.
-
-The PSC extension would provide an engine for authoring and inspecting controlled multi-agent adaptation experiments. Its evaluation would examine whether users can construct several environments, reproduce runs and identify failure mechanisms. Usability, simulation throughput and support for different tasks remain unmeasured; they are separate questions from the performance of V2.
-
-Relay Workshop and the PSC extension are proposed directions rather than evaluated contributions. Their relationship to existing game-authoring and multi-agent platforms has not yet been assessed systematically.
-
 \begingroup\small
 \begin{thebibliography}{9}
 \setlength{\itemsep}{2pt}
@@ -322,7 +308,6 @@ Relay Workshop and the PSC extension are proposed directions rather than evaluat
 \bibitem{mpe2} Farama Foundation. MPE2, Simple Reference environment documentation. Accessed 29 September 2026. \url{https://mpe2.farama.org/environments/simple_reference/}.
 \bibitem{carroll2019} M. Carroll et al. On the Utility of Learning about Humans for Human-AI Coordination. NeurIPS, 2019. \url{https://arxiv.org/abs/1910.05789}.
 \bibitem{bard2019} N. Bard et al. The Hanabi Challenge: A New Frontier for AI Research. Preprint, 2019. \url{https://arxiv.org/abs/1902.00506}.
-\bibitem{terry2021} J. K. Terry et al. PettingZoo: A Standard API for Multi-Agent Reinforcement Learning. NeurIPS, 2021. \url{https://arxiv.org/abs/2009.14471}.
 \end{thebibliography}
 \endgroup
 \end{document}
