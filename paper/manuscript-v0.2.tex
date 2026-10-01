@@ -10,6 +10,7 @@
 \usepackage[colorlinks=true,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
 \usepackage{microtype}
 \setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{1em}
 \title{Selective Adaptation to Communication and Actuation Shifts\\in Cooperative Multi-Agent Reinforcement Learning}
 \author{Working manuscript: authors and affiliations to be confirmed}
 \date{Version 0.2 --- 29 September 2026\\\small Closed descriptive study; three LIAM training seeds}
@@ -113,12 +114,12 @@ After activation, a four-episode trial checks whether returns have worsened beyo
 \centering
 \begin{tikzpicture}[>=Stealth,box/.style={draw,rounded corners,align=center,font=\small,text width=3.5cm,minimum height=12mm}]
 \node[box] (memory) at (0,0) {Separate receiver GRU\\+ semantic gate};
-\node[box] (move) at (4.4,0) {Base actor: corrected input\\Movement head};
+\node[box] (move) at (4.4,0) {Base actor\\Corrected observation\\Movement head};
 \node[box] (motor) at (8.8,0) {Motor inverse mapping\\Movement command};
 \node[box] (raw) at (0,-2) {Raw observation\\+ own history};
 \node[box] (sender) at (4.4,-2) {Base actor: raw input\\Outgoing-message head};
 \draw[->] (raw)--(memory);
-\draw[->] (memory)-- node[above,font=\footnotesize]{corrected input} (move);
+\draw[->] (memory)--(move);
 \draw[->] (move)--(motor);
 \draw[->] (raw)--(sender);
 \draw[dashed] (move)-- node[right,align=left,font=\footnotesize]{same actor weights;\\separate recurrent states} (sender);
@@ -308,7 +309,10 @@ The defensible PSC positioning is therefore: \textbf{a proposed engine for autho
 
 The cited environments motivate future extensions; they are not additional tested baselines. The originality of Relay Workshop and the broader engine contribution remains to be established through a dedicated related-work review.
 
+\begingroup\small
 \begin{thebibliography}{9}
+\setlength{\itemsep}{2pt}
+\setlength{\parskip}{0pt}
 \bibitem{lowe2017} R. Lowe, Y. Wu, A. Tamar, J. Harb, P. Abbeel, and I. Mordatch. Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments. NeurIPS, 2017. \url{https://arxiv.org/abs/1706.02275}.
 \bibitem{yu2022} C. Yu, A. Velu, E. Vinitsky, J. Gao, Y. Wang, A. Bayen, and Y. Wu. The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games. NeurIPS, 2022. \url{https://arxiv.org/abs/2103.01955}.
 \bibitem{papoudakis2021} G. Papoudakis, F. Christianos, and S. V. Albrecht. Agent Modelling under Partial Observability for Deep Reinforcement Learning. NeurIPS, 2021. \url{https://arxiv.org/abs/2006.09447}.
@@ -318,4 +322,5 @@ The cited environments motivate future extensions; they are not additional teste
 \bibitem{bard2019} N. Bard et al. The Hanabi Challenge: A New Frontier for AI Research. Preprint, 2019. \url{https://arxiv.org/abs/1902.00506}.
 \bibitem{terry2021} J. K. Terry et al. PettingZoo: A Standard API for Multi-Agent Reinforcement Learning. NeurIPS, 2021. \url{https://arxiv.org/abs/2009.14471}.
 \end{thebibliography}
+\endgroup
 \end{document}
