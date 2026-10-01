@@ -66,7 +66,7 @@ Large checkpoints and machine-specific logs are excluded from Git. Earlier in-ho
 
 ## Relation to the PSC
 
-This study explores the kind of experiment we want to support with the PSC game-environment engine: construct a cooperative task, change one interface, and inspect how agents recover. The reported experiments run in MPE2. The proposed Relay Workshop game and MARL extensions to the PSC engine are future work, described in the paper's appendix.
+This individual research study was conducted independently of the group PSC. It illustrates the kind of experiment the separate PSC game-environment engine could eventually support: construct a cooperative task, change one interface, and inspect how agents recover. The reported experiments run in MPE2. The proposed Relay Workshop game and MARL extensions to the PSC engine are future work, described in the paper's appendix.
 
 ## Credits
 
