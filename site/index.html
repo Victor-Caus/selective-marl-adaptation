@@ -6,7 +6,7 @@
 <p class="tag">Cooperative multi-agent reinforcement learning · Working manuscript · Three completed LIAM seeds</p>
 <h1>Selective Adaptation to Communication and Actuation Shifts</h1>
 <p>When cooperation fails, should an agent reinterpret incoming messages or correct how its movement commands are executed?</p>
-<nav><a href="paper.pdf">Read / download PDF</a><a href="https://github.com/Victor-Caus/selective-marl-adaptation">Code &amp; data</a><a href="manuscript.tex">LaTeX source</a><a href="overleaf.zip">Overleaf project</a></nav>
+<nav><a href="paper.pdf">Read / download PDF</a><a href="https://github.com/Victor-Caus/selective-marl-adaptation">Code &amp; data</a></nav>
 <h2>What we tested</h2>
 <p>V2 combines a frozen recurrent MAPPO policy, a learned receiver memory and local motor identification. We evaluate no change, message permutation, actuator rotation and both changes in MPE2 Simple Reference, and compare with simpler corrections and a port of the official LIAM core.</p>
 <p class="note">Motor correction recovers much of the frozen policy's performance. Selective routing has not established an advantage over simpler rules. LIAM wins the message-only and combined conditions in two of three seeds; its weak third seed affects the aggregate ranking. This is a descriptive study, not a peer-reviewed claim of superiority.</p>
@@ -17,6 +17,11 @@
 <p>If your browser does not display PDFs, <a href="paper.pdf">download the manuscript</a>.</p>
 <h2>Built on prior work</h2>
 <p>Environment: <a href="https://mpe2.farama.org/environments/simple_reference/">Farama MPE2 / Simple Reference</a>, continuing the MPE work of Lowe et al. and Mordatch &amp; Abbeel. Base policy: <a href="https://github.com/marlbenchmark/on-policy">MAPPO, Yu et al.</a> Comparator: <a href="https://github.com/uoe-agents/LIAM">LIAM, Papoudakis, Christianos &amp; Albrecht</a>. Our contribution is the intervention harness, adapter composition and evaluation.</p>
-<h2>Connection to the PSC</h2><p>The planned PSC extension would support authoring games, controlled interventions and reproducible agent evaluations. These experiments use MPE2; the proposed Relay Workshop environment and engine extensions have not yet been evaluated.</p>
+<h2>Our PSC: a game engine for AI experiments</h2>
+<p>Our Projet Scientifique Collectif (PSC) at &Eacute;cole Polytechnique aims to build an engine for creating games and using them as experimental environments for artificial intelligence. We want users to define game rules and scenarios, then study how agents learn, cooperate and adapt when those rules or their communication change.</p>
+<p>The project already includes a game editor and local playtesting. Our next objective is to connect this foundation to reproducible AI experiments, with agent-specific observations, training interfaces and replays that help explain agent behaviour. The study presented here illustrates the kind of research we want to support: it was conducted in MPE2, while integration with our own engine remains future work.</p>
+<h3>Looking for an AI research tutor</h3>
+<p>We are looking for a tutor or research mentor for the AI side of the PSC, particularly in reinforcement learning, multi-agent systems and experimental design. We would welcome guidance on turning the engine into a useful research platform and developing well-defined, testable research questions.</p>
+<p>If you are interested in discussing the project, please contact Victor Batista Caus at <a href="mailto:victor.batista-caus@polytechnique.edu">victor.batista-caus@polytechnique.edu</a>.</p>
 <footer>Built from <a href="https://github.com/Victor-Caus/selective-marl-adaptation/commit/BUILD_SHA">BUILD_SHA</a>. Publication date: BUILD_DATE. The manuscript source in the repository is the editable version.</footer>
 </main></body></html>
